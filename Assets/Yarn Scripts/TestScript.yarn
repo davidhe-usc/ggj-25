@@ -3,6 +3,9 @@ tags:
 ---
 System: Hello there!
 System: This is a test.
-System: Emotion change
-System: Spawn bubble maybe? (not yet)
+<<PrepareLine Nettle Happy>>
+System: Happy!
+<<Emote Anemoni Sad>>
+System: Sad...
+System: Spawn bubble!
 ===

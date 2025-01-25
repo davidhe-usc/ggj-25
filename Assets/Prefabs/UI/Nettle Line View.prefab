@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 2485169381774209809}
   - component: {fileID: 23652555008708819}
   m_Layer: 5
-  m_Name: Player Line View
+  m_Name: Nettle Line View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
