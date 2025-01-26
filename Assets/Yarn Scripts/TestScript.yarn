@@ -7,5 +7,10 @@ System: This is a test.
 System: Happy!
 <<Emote Anemoni Sad>>
 System: Sad...
+<<SpawnBubble BubbleManager One>>
 System: Spawn bubble!
+<<SpawnBubble BubbleManager Two>>
+System: Another bubble!
+<<SpawnBubble BubbleManager Three>>
+System: Last bubble!
 ===
