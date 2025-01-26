@@ -1,10 +1,12 @@
 ﻿title: Conversation2-1-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: You still need to tell me more about them. How'd you meet them?
+<<Mouth Nettle 0>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Oh, some of them are classmates and a few are coworkers!
 <<wait 1>>

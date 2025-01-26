@@ -1,12 +1,14 @@
 ﻿title: Conversation1-3-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: I mean, what were you expecting? You've always tried to bite more than you could chew.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah... I guess that's just a bad habit of mine.
 <<wait 1>>
 <<NextNode BubbleManager>>

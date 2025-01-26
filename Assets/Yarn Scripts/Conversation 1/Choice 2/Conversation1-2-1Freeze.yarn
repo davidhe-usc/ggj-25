@@ -1,11 +1,13 @@
 ﻿title: Conversation1-2-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Yeah, work on top of everything else seems so stressful. I don't know how you do it. You're amazing.
 <<Emote Nettle Neutral>>
+<<Mouth Nettle 0>>
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: Haha, don't say that! I'm not too sure how I do it either! It's all a blur, really.
 <<wait 1>>

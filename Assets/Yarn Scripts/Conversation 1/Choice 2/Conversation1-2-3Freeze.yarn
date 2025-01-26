@@ -1,12 +1,14 @@
 ﻿title: Conversation1-2-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Sheepish>>
 Nettle: Are you at least having a good time with these new friends?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: I am! They've made Waveside so much more enjoyable!
 <<wait 1>>
 <<NextNode BubbleManager>>

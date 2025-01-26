@@ -1,10 +1,12 @@
 ﻿title: Conversation1-3-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: You could maybe try cutting back on some things? Not everything all at once, of course! Just some things.
+<<Mouth Nettle 0>>
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah... you're right... cutting back doesn't necessarily mean completely cutting out, either!

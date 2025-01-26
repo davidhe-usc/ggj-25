@@ -1,10 +1,12 @@
 ﻿title: Conversation1-1-2Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<PrepareLine Anemoni Neutral>>
 Nettle: There's lots to do in Coralburg too.
+<<Mouth Nettle 0>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: I didn't mean it like that...
 <<wait 1>>

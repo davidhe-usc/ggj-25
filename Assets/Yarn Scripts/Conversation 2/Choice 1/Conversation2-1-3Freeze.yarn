@@ -1,11 +1,13 @@
 ﻿title: Conversation2-1-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: Then you've definitely got to make this trip worth it!
 <<PrepareLine Anemoni Happy>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah!
 <<wait 1>>
 <<NextNode BubbleManager>>

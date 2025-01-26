@@ -1,11 +1,13 @@
 ﻿title: Conversation1-1-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Oh? Like what?
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 <<SpawnBubble BubbleManager Work H>>
 <<SpawnBubble BubbleManager School C>>
 <<SpawnBubble BubbleManager MyNewFriends P>>

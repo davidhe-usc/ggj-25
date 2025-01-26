@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
 
     public Sprite[] emotionSprites; //List of sprites for the character for a given scene
     public LineView textBox; //The personal text box for this character
+    public GameObject mouth;
 
     // Start is called before the first frame update
     void Start()
@@ -81,5 +82,18 @@ public class Character : MonoBehaviour
 
 
         SetEmote(emote);
+    }
+
+    [YarnCommand("Mouth")]
+    public void MouthSprite(int open)
+    {
+        if(open == 1)
+        {
+            mouth.SetActive(true);
+        }
+        else
+        {
+            mouth.SetActive(false);
+        }
     }
 }

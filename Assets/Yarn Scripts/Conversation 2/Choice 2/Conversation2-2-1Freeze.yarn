@@ -1,10 +1,12 @@
 ﻿title: Conversation2-2-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Your mom isn't necessarily wrong - it <i>is</i> a big city and you <i>do</i> live alone.
+<<Mouth Nettle 0>>
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah...

@@ -1,11 +1,13 @@
 ﻿title: Conversation1-2-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: I thought school would be fun? You were so excited for it!
 <<PrepareLine Anemoni Worried>>
+<<Mouth Nettle 0>>
 <<SpawnBubble BubbleManager IWas W>>
 <<SpawnBubble BubbleManager ALotOfWork H>>
 <<SpawnBubble BubbleManager HardToManage E>>
