@@ -1,0 +1,16 @@
+﻿title: Conversation2-1
+tags:
+---
+<<PrepareLine Nettle Happy>>
+<<PrepareLine Anemoni Happy>>
+Anemoni: Look at this!
+<<PrepareLine Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Nettle: Oh, that's so cute!
+<<PrepareLine Nettle Happy>>
+<<SpawnBubble BubbleManager MyFriends P>>
+Anemoni: I think one of <holo>my friends</holo> would really enjoy this!
+<<SpawnBubble BubbleManager Souvenirs S>>
+<<SpawnBubble BubbleManager CoralburgIsSoFar O>>
+Anemoni: I promised I'd find <holo>souvenirs</holo> for all of them since <holo>Coralburg is so far</holo> out.
+===

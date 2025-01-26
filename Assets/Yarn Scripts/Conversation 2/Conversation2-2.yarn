@@ -1,0 +1,16 @@
+﻿title: Conversation2-2
+tags:
+---
+<<PrepareLine Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Nettle: How does your family feel about you in Waveside? You're staying with them, right?
+<<PrepareLine Nettle Happy>>
+Anemoni: Yeah, I'm staying with them right now!
+<<PrepareLine Anemoni Happy>>
+<<SpawnBubble BubbleManager Doesn'tThinkIt'sSafe K>>
+<<SpawnBubble BubbleManager Doesn'tLikeMyFriends P>>
+Anemoni: And they've been mixed about it... my mom <holo>doesn't think it's super safe</holo> and my dad <holo>doesn't like some of my friends</holo>.
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager BestOpportunities E>>
+Anemoni: But overall, they think Waveside has the <holo>best opportunities</holo> for me
+===

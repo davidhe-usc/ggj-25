@@ -1,0 +1,10 @@
+﻿title: Conversation1-3
+tags:
+---
+<<PrepareLine Nettle Happy>>
+<<PrepareLine Anemoni Sad>>
+<<SpawnBubble BubbleManager ILiked W>>
+<<SpawnBubble BubbleManager ALotOfWork H>>
+<<SpawnBubble BubbleManager HardToManage E>>
+Anemoni: It's just <holo>a lot of work</holo> - which <holo>I liked</holo>! But it's still so <holo>hard to manage</holo> sometimes, you know?
+===
