@@ -41,9 +41,16 @@ public class BubbleManager : MonoBehaviour
         b.Setup(this, textBoxCollider, bubbleLine);
     }
 
-    public void BubbleChosen(string bubble, bool popped)
+    public void BubbleChosen(string id, bool popped)
     {
         //Do something when the bubble is popped or frozen
+
+        foreach(Bubble b in bubbles)
+        {
+            //call the pop animation
+            //check if the id matches and then do a different effect based on the popped bool
+            GameObject.Destroy(b.gameObject);
+        }
 
         bubbles.Clear();
     }
