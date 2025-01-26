@@ -1,6 +1,7 @@
 ﻿title: Conversation2-1-1Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: You still need to tell me more about them. How'd you meet them?

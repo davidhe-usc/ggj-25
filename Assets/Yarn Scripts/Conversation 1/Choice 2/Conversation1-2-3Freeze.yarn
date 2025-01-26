@@ -1,6 +1,7 @@
 ﻿title: Conversation1-2-3Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Sheepish>>
 Nettle: Are you at least having a good time with these new friends?

@@ -1,6 +1,7 @@
 ﻿title: Conversation1-2-1Freeze
 tags:
 ---
+<<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Yeah, work on top of everything else seems so stressful. I don't know how you do it. You're amazing.

@@ -1,6 +1,7 @@
 ﻿title: Conversation1-2-2Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Your university is super intense! I wouldn't be able to do it.

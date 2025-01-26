@@ -1,6 +1,7 @@
 ﻿title: Conversation2-1-3Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: Then you've definitely got to make this trip worth it!

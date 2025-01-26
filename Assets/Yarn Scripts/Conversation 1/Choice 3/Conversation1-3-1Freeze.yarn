@@ -1,6 +1,7 @@
 ﻿title: Conversation1-3-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Do you not enjoy it anymore? I think that's pretty important.
