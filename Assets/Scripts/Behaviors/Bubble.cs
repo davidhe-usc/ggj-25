@@ -35,6 +35,8 @@ public class Bubble : MonoBehaviour
     public int threshold = 5;
     private int selectCounter;
 
+    private bool intro = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,10 +45,14 @@ public class Bubble : MonoBehaviour
 
         Collider2D col = GetComponent<Collider2D>();
 
-        Vector2 push = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
-        push.Normalize();
+        if (!intro)
+        {
 
-        rb.velocity = push;
+            Vector2 push = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+            push.Normalize();
+
+            rb.velocity = push;
+        }
 
         selectCounter = 0;
     }
@@ -54,8 +60,12 @@ public class Bubble : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (!locked && !tooClose && lifetime > 3f)
+        if (intro)
+        {
+            locked = true;
+            StartCoroutine(Brake());
+        }
+        else if (!locked && !tooClose && lifetime > 3f)
         {
             if(manager.CheckBubblePositions(id, transform.position))
             {
@@ -79,7 +89,11 @@ public class Bubble : MonoBehaviour
         }
         rb.velocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
-        StartCoroutine(FadeIn());
+
+        if (!intro)
+        {
+            StartCoroutine(FadeIn());
+        }
     }
 
     IEnumerator FadeIn() //Fades in the bubble's text box
@@ -103,25 +117,41 @@ public class Bubble : MonoBehaviour
         id = l;
         sigilLetter = s;
 
-        //Once we have a complete list of bubble lines, set it up so that we can get the text line from the string identifier.
-        SetText();
+        if (id.Equals("Intro"))
+        {
+            intro = true;
+        }
+        else
+        {
+            //Once we have a complete list of bubble lines, set it up so that we can get the text line from the string identifier.
+            SetText();
+        }
         AssignSigil();
     }
 
     public void SelectBubble() //Select the bubble to move to the center of the screen
     {
-        manager.BubbleChosen(id, bubbleText.text, this);
-        StartCoroutine(MoveToSelect());
+        if (intro)
+        {
+            manager.EndIntro();
+        }
+        else
+        {
+            manager.BubbleChosen(id, bubbleText.text, this);
+            StartCoroutine(MoveToSelect());
+        }
     }
 
     IEnumerator MoveToSelect()
     {
         rb.isKinematic = true;
-        while(Vector3.Distance(transform.position, Vector3.zero) > 0.05f)
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        while (Vector3.Distance(transform.position, Vector3.zero) > 0.05f)
         {
-            rb.MovePosition(Vector2.Lerp(transform.position, Vector3.zero, 0.01f));
+            rb.MovePosition(Vector2.Lerp(transform.position, Vector3.zero, 0.05f));
             yield return null;
         }
+        rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
     }
     private void AssignSigil()
     {
