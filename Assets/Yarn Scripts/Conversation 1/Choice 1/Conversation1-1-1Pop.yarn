@@ -7,4 +7,6 @@ tags:
 Nettle: That's alright, you can always come back whenever you want! Coralburg isn't going anywhere.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: You're right!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

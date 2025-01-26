@@ -5,13 +5,15 @@ System: Hello there!
 System: This is a test.
 <<PrepareLine Nettle Happy>>
 System: Happy!
-<<Emote Anemoni Sad>>
+<<PrepareLine Anemoni Sad>>
 System: Sad...
-<<SpawnBubble BubbleManager One E>>
+<<PrepareLine Nettle Neutral>>
+<<SpawnBubble BubbleManager There'sSoMuchToDo W>>
 System: Spawn <holo>one</holo> bubble!
-<<SpawnBubble BubbleManager Two H>>
+<<SpawnBubble BubbleManager There'sSoMuchToDo W>>
 System: Bubble number <holo>two</holo>!
-<<SpawnBubble BubbleManager Three S>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager There'sSoMuchToDo W>>
 System: And one more makes <holo>three</holo>!
 <<CaptureReady BubbleManager>>
 ===

@@ -75,7 +75,10 @@ public class Character : MonoBehaviour
     [YarnCommand("PrepareLine")]
     public void PrepareLine(string emote) //Prepares the dialogue runner to display lines from this character. Call again to change emotion
     {
-        dr.dialogueViews[0] = textBox; //Set the active line view to this character'son
+        //dr.dialogueViews[0] = textBox; //Set the active line view to this character'son
+        DialogueViewBase[] box = { textBox };
+        dr.SetDialogueViews(box);
+
 
         SetEmote(emote);
     }

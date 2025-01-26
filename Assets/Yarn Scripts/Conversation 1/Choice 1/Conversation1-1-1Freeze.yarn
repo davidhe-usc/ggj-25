@@ -7,4 +7,6 @@ tags:
 Nettle: You really should visit more, I miss you so much these days.
 <<PrepareLine Anemoni Worried>>
 Anemoni: You're right... I miss you too.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

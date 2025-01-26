@@ -29,6 +29,8 @@ public class BubbleManager : MonoBehaviour
     public CanvasGroup choiceMenu;
     public TextMeshProUGUI bubbleChoiceText;
 
+    private string afterNode; //The node that plays after the current freeze/pop choice
+
     // Start is called before the first frame update
     void Start()
     {
@@ -150,5 +152,20 @@ public class BubbleManager : MonoBehaviour
         }
 
         return true;
+    }
+
+    [YarnCommand("NextNode")]
+    public void NextNode()
+    {
+        StartCoroutine(QueueNode());
+    }
+
+    IEnumerator QueueNode()
+    {
+        while(dr.IsDialogueRunning)
+        {
+            yield return null;
+        }
+        dr.StartDialogue(afterNode);
     }
 }

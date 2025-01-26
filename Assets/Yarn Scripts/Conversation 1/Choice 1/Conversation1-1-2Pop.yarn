@@ -7,4 +7,6 @@ tags:
 Nettle: There's lots to do in Coralburg too.
 <<PrepareLine Anemoni Worried>>
 Anemoni: I didn't mean it like that...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

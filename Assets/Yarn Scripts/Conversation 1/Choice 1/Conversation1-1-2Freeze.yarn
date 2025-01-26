@@ -11,4 +11,6 @@ Nettle: Oh? Like what?
 <<SpawnBubble BubbleManager MyNewFriends P>>
 Anemoni: Like I've got <holo>work</holo> and <holo>school</holo> and <holo>my new friends</holo>...
 <<CaptureReady BubbleManager>>
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
