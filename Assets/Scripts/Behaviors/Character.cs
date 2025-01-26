@@ -29,20 +29,41 @@ public class Character : MonoBehaviour
     public void SetEmote(string emote) //Just sets the emote. Can be called directly when we don't want to change the speaker
     {
         //Set emotion sprite. Currently our options are:
-        //Neutral: 0
-        //Sad: 1
-        //Happy: 2
+        // :) Neutral : 0
+        // :O Open: 1
+        // :D Happy: 2
+        // ^O^ Sheepish: 3
+        // ó^ò Worried: 4
+        // :( Sad: 5
+        // :| TrueNeutral: 6
+        // nOn Cheerful: 7
+
 
         switch (emote)
         {
             case ("Neutral"):
                 sr.sprite = emotionSprites[0];
                 break;
-            case ("Sad"):
+            case ("Open"):
                 sr.sprite = emotionSprites[1];
                 break;
             case ("Happy"):
                 sr.sprite = emotionSprites[2];
+                break;
+            case ("Sheepish"):
+                sr.sprite = emotionSprites[3];
+                break;
+            case ("Worried"):
+                sr.sprite = emotionSprites[4];
+                break;
+            case ("Sad"):
+                sr.sprite = emotionSprites[5];
+                break;
+            case ("TrueNeutral"):
+                sr.sprite = emotionSprites[6];
+                break;
+            case ("Cheerful"):
+                sr.sprite = emotionSprites[7];
                 break;
             default:
                 Debug.LogWarning("No valid emotion, default to neutral");
@@ -54,7 +75,7 @@ public class Character : MonoBehaviour
     [YarnCommand("PrepareLine")]
     public void PrepareLine(string emote) //Prepares the dialogue runner to display lines from this character. Call again to change emotion
     {
-        dr.dialogueViews[0] = textBox; //Set the active line view to this character's
+        dr.dialogueViews[0] = textBox; //Set the active line view to this character'son
 
         SetEmote(emote);
     }
