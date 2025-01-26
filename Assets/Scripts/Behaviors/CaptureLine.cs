@@ -114,11 +114,12 @@ public class CaptureLine : MonoBehaviour
 
     private void CloseLoop(Vector2 closePoint)
     {
-
         int closeIndex = Array.IndexOf(edgeCol.points, closePoint);
         Vector2[] loop = edgeCol.points[closeIndex..];
         loopCol.points = loop;
         Debug.Log("Loop Detected");
+
+        pointQueue.Clear();
     }
 
     private Vector2 ClosestVertex(Vector2 other)
@@ -141,7 +142,10 @@ public class CaptureLine : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Vector2 closePoint = ClosestVertex(other.transform.position);
-        CloseLoop(closePoint);
+        if (other.tag == "Head")
+        {
+            Vector2 closePoint = ClosestVertex(other.transform.position);
+            CloseLoop(closePoint);
+        }
     }
 }
