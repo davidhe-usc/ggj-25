@@ -1,6 +1,7 @@
 ﻿title: Conversation1-3-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Worried>>
 Nettle: I'm sure it's just a rough patch - you can get through it!

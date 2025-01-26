@@ -1,6 +1,7 @@
 ﻿title: Conversation2-2-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Your mom isn't necessarily wrong - it <i>is</i> a big city and you <i>do</i> live alone.

@@ -1,6 +1,7 @@
 ﻿title: Conversation2-1-1Pop
 tags:
 ---
+<<AddScore SaveData 0>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: What about your friends here?

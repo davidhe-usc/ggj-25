@@ -1,6 +1,7 @@
 ﻿title: Conversation2-2-3Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: I mean, it's not like you don't have opportunities here? Remember we were going to run the cafe together?

@@ -1,6 +1,7 @@
 ﻿title: Conversation1-1-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: You really should visit more, I miss you so much these days.

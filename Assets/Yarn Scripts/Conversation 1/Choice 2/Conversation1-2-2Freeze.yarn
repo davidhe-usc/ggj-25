@@ -1,6 +1,7 @@
 ﻿title: Conversation1-2-2Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: I thought school would be fun? You were so excited for it!

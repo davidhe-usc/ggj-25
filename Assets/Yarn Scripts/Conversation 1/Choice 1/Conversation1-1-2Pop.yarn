@@ -1,6 +1,7 @@
 ﻿title: Conversation1-1-2Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<PrepareLine Anemoni Neutral>>
 Nettle: There's lots to do in Coralburg too.
