@@ -18,6 +18,7 @@ public class Bubble : MonoBehaviour
     public string id;
     private string popNode;
     private string freezeNode;
+    private string nodeAfter;
 
     Vector3[] OtherBubbles;
     float lifetime = 0;
@@ -141,19 +142,19 @@ public class Bubble : MonoBehaviour
         bubbleSigil.sprite = possibleSigils[sigilIndex];
     }
 
-    public string Pop(bool pop) //Pops the bubble. Set parameter to true if popped or false if frozen. Return the node to play if it was popped or frozen
+    public (string Result, string After) Pop(bool pop) //Pops the bubble. Set parameter to true if popped or false if frozen. Return the node to play if it was popped or frozen
     {
         if(pop)
         {
             //start pop animation
             GameObject.Destroy(this, 1f);
-            return popNode;
+            return (popNode, nodeAfter);
         }
         else
         {
             //start freeze animation
             GameObject.Destroy(this, 1f);
-            return freezeNode;
+            return (freezeNode, nodeAfter);
         }
     }
 
@@ -189,9 +190,10 @@ public class Bubble : MonoBehaviour
             tooClose = false;
     }
 
-    private void setNodes(string id) {
+    private void setNodes(string id, string next) {
         popNode = "Conversation" + id + "Pop";
         freezeNode = "Conversation" + id + "Freeze";
+        nodeAfter = "Conversation" + next;
     }
 
     private void SetText() //Set the bubble text and next node based on id
@@ -202,197 +204,197 @@ public class Bubble : MonoBehaviour
             // Choice 1
             case ("LastTimeIWasHere"):
                 bubbleText.text = "Last Time I Was Here";
-                setNodes("1-1-1");
+                setNodes("1-1-1", "1-2");
                 break;
             case ("There'sSoMuchToDo"):
                 bubbleText.text = "There's So Much To Do";
-                setNodes("1-1-2");
+                setNodes("1-1-2", "1-2");
                 break;
             // Choice 2
             case ("Work"):
                 bubbleText.text = "Work";
-                setNodes("1-2-1");
+                setNodes("1-2-1", "1-3");
                 break;
             case ("School"):
                 bubbleText.text = "School";
-                setNodes("1-2-2");
+                setNodes("1-2-2", "1-3");
                 break;
             case ("MyNewFriends"):
                 bubbleText.text = "My New Friends";
-                setNodes("1-2-3");
+                setNodes("1-2-3", "1-3");
                 break;
             // choice 3
             case ("ILiked"):
                 bubbleText.text = "I Liked";
-                setNodes("1-3-1");
+                setNodes("1-3-1", "1-4");
                 break;
             case ("ALotOfWork"):
                 bubbleText.text = "A Lot of Work";
-                setNodes("1-3-2");
+                setNodes("1-3-2", "1-4");
                 break;
             case ("HardToManage"):
                 bubbleText.text = "Hard to Manage";
-                setNodes("1-3-3");
+                setNodes("1-3-3", "1-4");
                 break;
             // ------------ CONVERSATION 2 ---------------
             // Choice 1
             case ("MyFriends"):
                 bubbleText.text = "My Friends";
-                setNodes("2-1-1");
+                setNodes("2-1-1", "2-2");
                 break;
             case ("Souvenirs"):
                 bubbleText.text = "Souvenirs";
-                setNodes("2-1-2");
+                setNodes("2-1-2", "2-2");
                 break;
             case ("CoralburgIsSoFar"):
                 bubbleText.text = "Coralburg Is So Far";
-                setNodes("2-1-3");
+                setNodes("2-1-3", "2-2");
                 break;
             // Choice 2
             case ("Doesn'tThinkIt'sSafe"):
                 bubbleText.text = "Doesn't Think It's Safe";
-                setNodes("2-2-1");
+                setNodes("2-2-1", "2-3");
                 break;
             case ("Doesn'tLikeMyFriends"):
                 bubbleText.text = "Doesn't Like My Friends";
-                setNodes("2-2-2");
+                setNodes("2-2-2", "2-3");
                 break;
             case ("BestOpportunities"):
                 bubbleText.text = "Best Opportunities";
-                setNodes("2-2-3");
+                setNodes("2-2-3", "2-3");
                 break;
             // ------------ CONVERSATION 3 ---------------
             // Choice 1
             case ("MyFriends2"):
                 bubbleText.text = "My Friends";
-                setNodes("3-1-1");
+                setNodes("3-1-1", "3-2");
                 break;
             case ("FeelSafer"):
                 bubbleText.text = "Feel Safer";
-                setNodes("3-1-2");
+                setNodes("3-1-2", "3-2");
                 break;
             case ("WalkSomewhereNice"):
                 bubbleText.text = "WalkSomewhereNice";
-                setNodes("3-1-3");
+                setNodes("3-1-3", "3-2");
                 break;
             // Choice 2
             case ("WhenWeWorkedTogether"):
                 bubbleText.text = "When We Worked Together";
-                setNodes("3-2-1");
+                setNodes("3-2-1", "3-3");
                 break;
             case ("School2"):
                 bubbleText.text = "School";
-                setNodes("3-2-2");
+                setNodes("3-2-2", "3-3");
                 break;
             case ("Work2"):
                 bubbleText.text = "Work";
-                setNodes("3-2-3");
+                setNodes("3-2-3", "3-3");
                 break;
             // Choice 3
             case ("CoopedUp"):
                 bubbleText.text = "Cooped Up";
-                setNodes("3-3-1");
+                setNodes("3-3-1", "3-4");
                 break;
             case ("StuffIHaveToDo"):
                 bubbleText.text = "Stuff I Have To Do";
-                setNodes("3-3-2");
+                setNodes("3-3-2", "3-4");
                 break;
             case ("ActuallyRelaxed"):
                 bubbleText.text = "Actually Relaxed";
-                setNodes("3-3-3");
+                setNodes("3-3-3", "3-4");
                 break;
             // ------------ CONVERSATION 4 ---------------
             // Choice 1
             case ("SpentThisWeekTogether"):
                 bubbleText.text = "Spent This Week Together";
-                setNodes("4-1-1");
+                setNodes("4-1-1", "4-2");
                 break;
             case ("Haven'tSpoken"):
                 bubbleText.text = "Haven't Spoken";
-                setNodes("4-1-2");
+                setNodes("4-1-2", "4-2");
                 break;
             case ("We'veChanged"):
                 bubbleText.text = "We've Changed";
-                setNodes("4-1-3");
+                setNodes("4-1-3", "4-2");
                 break;
             // Choice 2
             case ("SnuckOut"):
                 bubbleText.text = "Snuck Out";
-                setNodes("4-2-1");
+                setNodes("4-2-1", "4-3");
                 break;
             case ("AwfulCrush"):
                 bubbleText.text = "Awful Crush";
-                setNodes("4-2-2");
+                setNodes("4-2-2", "4-3");
                 break;
             case ("MatchingEarrings"):
                 bubbleText.text = "Matching Earrings";
-                setNodes("4-2-3");
+                setNodes("4-2-3", "4-3");
                 break;
             // Choice 3
             case ("TheseBands"):
                 bubbleText.text = "These Bands";
-                setNodes("4-3-1");
+                setNodes("4-3-1", "4-4");
                 break;
             case ("AllThisStuff"):
                 bubbleText.text = "All This Stuff";
-                setNodes("4-3-2");
+                setNodes("4-3-2", "4-4");
                 break;
             case ("TheBook"):
                 bubbleText.text = "TheBook";
-                setNodes("4-3-3");
+                setNodes("4-3-3", "4-4");
                 break;
             // Choice 4
             case ("SuperConvenient"):
                 bubbleText.text = "Super Convenient";
-                setNodes("4-4-1");
+                setNodes("4-4-1", "4-5");
                 break;
             case ("ThingsWereSlower"):
                 bubbleText.text = "When Things Were Slower";
-                setNodes("4-4-2");
+                setNodes("4-4-2", "4-5");
                 break;
             case ("IfIStayedHere"):
                 bubbleText.text = "If I Stayed Here";
-                setNodes("4-4-3");
+                setNodes("4-4-3", "4-5");
                 break;
             // ------------ CONVERSATION 5 ---------------
             // Choice 1
             case ("IMissedYou"):
                 bubbleText.text = "I Missed You";
-                setNodes("5-1-1");
+                setNodes("5-1-1", "5-2");
                 break;
             case ("TheCafe"):
                 bubbleText.text = "The Cafe";
-                setNodes("5-1-2");
+                setNodes("5-1-2", "5-2");
                 break;
             case ("StillAPlaceForMe"):
                 bubbleText.text = "Still A Place For Me";
-                setNodes("5-1-3");
+                setNodes("5-1-3", "5-2");
                 break;
             // Choice 2
             case ("ThisPark"):
                 bubbleText.text = "This Park";
-                setNodes("5-2-1");
+                setNodes("5-2-1", "5-3");
                 break;
             case ("AsKids"):
                 bubbleText.text = "As Kids";
-                setNodes("5-2-2");
+                setNodes("5-2-2", "5-3");
                 break;
             case ("HereAllTheTime"):
                 bubbleText.text = "Here All The Time";
-                setNodes("5-2-3");
+                setNodes("5-2-3", "5-3");
                 break;
             // Choice 3
             case ("NotThatSimple"):
                 bubbleText.text = "Not That Simple";
-                setNodes("5-3-1");
+                setNodes("5-3-1", "5-4");
                 break;
             case ("ICouldStay"):
                 bubbleText.text = "I Could Stay";
-                setNodes("5-3-2");
+                setNodes("5-3-2", "5-4");
                 break;
             case ("MissYou"):
                 bubbleText.text = "Miss You";
-                setNodes("5-3-3");
+                setNodes("5-3-3", "5-4");
                 break;
 
             default:
