@@ -71,10 +71,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
+    - _FreezeProgress: 0
     - _OutlineThickness: 0.05
-    - _Wobble_Strength: 0.1
+    - _Wobble_Strength: 0.09
     m_Colors:
-    - _BubbleColor: {r: 0.4279548, g: 0.55329925, b: 0.5566038, a: 0}
+    - _BubbleColor: {r: 0.5700427, g: 0.65764, b: 0.6603774, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _Outline: {r: 0.05, g: 0.05, b: 0, a: 0}
