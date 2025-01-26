@@ -1,0 +1,130 @@
+﻿title: Conversation5-1
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Cheerful>>
+Anemoni: Wow, I can't believe a week has already gone by.
+<<Emote Anemoni Neutral>>
+Anemoni: That flew by!
+<<PrepareLine Nettle Open>>
+Nettle: Yeah... I can't believe you're leaving tomorrow...
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+Anemoni: Me too...
+<<Emote Anemoni Cheerful>>
+<<SpawnBubble BubbleManager IMissedYou E>>
+Anemoni: I'm really glad we hung out and got the chance to talk. I didn't realize it but <holo>I missed you</holo> a lot!
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
+Nettle: Yeah, me too, for sure!
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager TheCafe B>>
+Anemoni: It was so nice to see <holo>the cafe</holo> and all the old places again as well. They've changed a bit but they're still the same.
+<<Emote Nettle TrueNeutral>>
+<<Emote Anemoni TrueNeutral>>
+<<SpawnBubble BubbleManager StillAPlaceForMe P>>
+Anemoni: Is there really <holo>still a place for me</holo> here?
+===
+
+title: Conversation5-2
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Cheerful>>
+<<SpawnBubble BubbleManager ThisPark O>>
+Anemoni: Man, I haven't been to <holo>this park</holo> in ages...
+<<SpawnBubble BubbleManager AsKids B>>
+Anemoni: Do you remember when we used to play here <holo>as kids</holo>?
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
+Nettle: How could I forget? 
+<<PrepareLine Anemoni Cheerful>>
+<<SpawnBubble BubbleManager HereAllTheTime P>>
+Anemoni: We really were <holo>here all the time</holo>!
+===
+
+title: Conversation5-3
+tags:
+---
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni TrueNeutral>>
+Nettle: You know what? I'll say it.
+<<Emote Nettle TrueNeutral>>
+Nettle: I wish you were here with me.
+<<Emote Nettle Open>>
+Nettle: I wish you'd come back.
+<<Emote Nettle TrueNeutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+<<SpawnBubble BubbleManager NotThatSimple W>>
+Anemoni: I get it but... it's just <holo>not that simple</holo>.
+<<PrepareLine Nettle Open>>
+Nettle: It could be, if you wanted it to be.
+<<Emote Nettle TrueNeutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+<<SpawnBubble BubbleManager ICouldStay B>>
+Anemoni: If <holo>I could stay</holo> I would.
+<<PrepareLine Nettle Open>>
+Nettle: I miss you. Don't you miss me? I know you do.
+<<Emote Nettle TrueNeutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+<<SpawnBubble BubbleManager MissYou P>>
+Anemoni: I <i>do</i> <holo>miss you</holo>.
+
+
+
+<<PrepareLine Anemoni Neutral>>
+Anemoni: To be honest, it feels like I'm fifteen again!
+<<Emote Anemoni Open>>
+<<SpawnBubble BubbleManager TheseBands S>>
+Anemoni: Man, I haven't thought about <holo>these bands</holo> in forever.
+<<SpawnBubble BubbleManager AllThisStuff B>>
+Anemoni: I can't believe you still have <holo>all this stuff</holo>.
+<<SpawnBubble BubbleManager TheseBands E>>
+Anemoni: Oh my god, is that <holo>the book</holo> I was talking about?
+===
+
+title: Conversation5-4
+tags:
+---
+<<Emote Nettle TrueNeutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+Anemoni: ...
+Anemoni: Look, I'll give what you said some thought.
+<<Emote Nettle Neutral>>
+Anemoni: I really will!
+===
+
+title: Conversation5-5Selfish
+tags:
+---
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni TrueNeutral>>
+Nettle: Oh, look - it's starting to snow.
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Wow, it really is like old times...
+===
+
+title: Conversation5-5Selfless
+tags:
+---
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni TrueNeutral>>
+Nettle: Oh, look - it's really starting to clear up.
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Wow, the sky is beautiful...
+===
+
+title: Conversation5-6
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni TrueNeutral>>
+Anemoni: ...
+Anemoni: Hey.
+<<PrepareLine Nettle Open>>
+Nettle: Yeah?
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Can I have a hug?
+<<PrepareLine Nettle Neutral>>
+Nettle: Of course.
+===
