@@ -59,6 +59,11 @@ public class CaptureLine : MonoBehaviour
         {
             pointQueue.First.Value.length = 0;
         }
+
+        if (loopCol.points.Length != 0)
+        {
+            loopCol.points = new Vector2[0];
+        }
     }
 
     public void SetPosition(Vector2 pos)
