@@ -834,7 +834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 168468487
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
   m_Color: {r: 0.8820755, g: 1, b: 0.9470104, a: 1}
   m_FlipX: 0
@@ -3652,6 +3652,10 @@ PrefabInstance:
     - target: {fileID: 4834669381226396181, guid: 8fba60cd80293594580377619c09eeea, type: 3}
       propertyPath: triggerEventsOnSkip
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107894465530374115, guid: 8fba60cd80293594580377619c09eeea, type: 3}
+      propertyPath: startNode
+      value: Conversation2-1
       objectReference: {fileID: 0}
     - target: {fileID: 5107894465530374115, guid: 8fba60cd80293594580377619c09eeea, type: 3}
       propertyPath: startAutomatically
