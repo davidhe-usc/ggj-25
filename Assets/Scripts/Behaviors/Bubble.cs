@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bubble : MonoBehaviour
@@ -8,11 +9,14 @@ public class Bubble : MonoBehaviour
     private BubbleManager manager;
     private Collider2D mainTextBox; //Nettle's text box, used to determine collision
     private Rigidbody2D rb;
+    private Animator animator;
 
     public TextMeshPro bubbleText;
     public SpriteRenderer bubbleTextBox;
 
     public string id;
+    private string popNode;
+    private string freezeNode;
 
     Vector3[] OtherBubbles;
     float lifetime = 0;
@@ -26,6 +30,7 @@ public class Bubble : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         Collider2D col = GetComponent<Collider2D>();
 
@@ -87,7 +92,45 @@ public class Bubble : MonoBehaviour
         id = l;
 
         //Once we have a complete list of bubble lines, set it up so that we can get the text line from the string identifier.
-        bubbleText.text = id;
+        SetText();
+    }
+
+    public void SelectBubble() //Select the bubble to move to the center of the screen
+    {
+        manager.BubbleChosen(id, bubbleText.text);
+        StartCoroutine(MoveToSelect());
+    }
+
+    IEnumerator MoveToSelect()
+    {
+        rb.isKinematic = true;
+        while(Vector3.Distance(transform.position, Vector3.zero) < 0.05f)
+        {
+            rb.MovePosition(Vector2.Lerp(transform.position, Vector3.zero, 0.01f));
+            yield return null;
+        }
+    }
+
+    public string Pop(bool pop) //Pops the bubble. Set parameter to true if popped or false if frozen. Return the node to play if it was popped or frozen
+    {
+        if(pop)
+        {
+            //start pop animation
+            GameObject.Destroy(this, 1f);
+            return popNode;
+        }
+        else
+        {
+            //start freeze animation
+            GameObject.Destroy(this, 1f);
+            return freezeNode;
+        }
+    }
+
+    public void FadeAnimation()
+    {
+        //do the animation to fade
+        Destroy(this.gameObject, 1f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -100,5 +143,17 @@ public class Bubble : MonoBehaviour
     {
         if (collision.tag == "Respawn") //Placeholder tag
             tooClose = false;
+    }
+
+    private void SetText() //Set the bubble text and next node based on id
+    {
+        switch(id)
+        {
+            default:
+                bubbleText.text = "TEST";
+                popNode = "Conversation1-1-1Pop";
+                freezeNode = "Conversation1 - 1 - 1Freeze";
+                break;
+        }
     }
 }

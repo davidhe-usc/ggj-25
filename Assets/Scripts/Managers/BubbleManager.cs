@@ -18,9 +18,18 @@ public class BubbleManager : MonoBehaviour
 
     public Transform[] spawnPoints; //Where the bubbles are allowed to spawn
 
+    DialogueRunner dr;
+
+    private Bubble activeBubble; //The bubble being selected for the freeze or pop choice
+    private string activeLabel; //The selected bubble's label
+    private bool popInputReady = false; //Whether the manager responds to pop/freeze button presses
+
+    public CanvasGroup choiceMenu;
+
     // Start is called before the first frame update
     void Start()
     {
+        dr = FindObjectOfType<DialogueRunner>();
         bubbles = new List<Bubble>();
     }
 
@@ -51,18 +60,49 @@ public class BubbleManager : MonoBehaviour
         b.Setup(this, textBoxCollider, bubbleLine);
     }
 
-    public void BubbleChosen(string id, bool popped)
+    public void BubbleChosen(string id, string l) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
     {
-        //Do something when the bubble is popped or frozen
-
         foreach(Bubble b in bubbles)
         {
-            //call the pop animation
+            //call the fade animation
             //check if the id matches and then do a different effect based on the popped bool
             GameObject.Destroy(b.gameObject);
         }
 
-        bubbles.Clear();
+        StartCoroutine(FadeChoices(true));
+    }
+
+    IEnumerator FadeChoices(bool fadeIn)
+    {
+        if(fadeIn)
+        {
+            while(choiceMenu.alpha < 1f)
+            {
+                choiceMenu.alpha += Time.deltaTime;
+                yield return null;
+            }
+            popInputReady = true;
+        }
+        else
+        {
+            while (choiceMenu.alpha > 0f)
+            {
+                choiceMenu.alpha -= Time.deltaTime*2;
+                yield return null;
+            }
+        }
+    }
+
+    public void ActivePop(bool pop) //Call this with the buttons
+    {
+        if (popInputReady)
+        {
+            popInputReady = false;
+            StartCoroutine(FadeChoices(false));
+            bubbles.Clear();
+
+            dr.StartDialogue(activeBubble.Pop(pop));
+        }
     }
 
     public bool CheckBubblePositions(string t, Vector3 pos) //Returns true if the bubble with id t is farther than the bubble distance limit to all other bubbles

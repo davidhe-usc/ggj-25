@@ -30,13 +30,13 @@ public class Character : MonoBehaviour
     {
         //Set emotion sprite. Currently our options are:
         // :) Neutral : 0
-        // :O Open: 1
-        // :D Happy: 2
-        // ^O^ Sheepish: 3
-        // ó^ò Worried: 4
-        // :( Sad: 5
-        // :| TrueNeutral: 6
-        // nOn Cheerful: 7
+        // :O Open : 1
+        // :D Happy : 2
+        // ^O^ Sheepish : 3
+        // ó^ò Worried : 4
+        // :( Sad : 5
+        // :| TrueNeutral : 6
+        // nOn Cheerful : 7
 
 
         switch (emote)
