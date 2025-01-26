@@ -28,7 +28,7 @@ public class CaptureManager : MonoBehaviour
             currentLine = Instantiate(captureLine, mousePosition, Quaternion.identity);
         }
 
-        if (Input.GetMouseButton(0) && currentLine != null)
+        else if (Input.GetMouseButton(0) && currentLine != null)
         {
             currentLine.SetPosition(mousePosition);
         }
