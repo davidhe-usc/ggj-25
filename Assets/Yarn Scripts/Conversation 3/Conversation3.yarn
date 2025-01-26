@@ -35,8 +35,8 @@ Nettle: Some things I just don't do as well as you do.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: Don't be like that!
-<<SpawnBubble BubbleManager School C>>
-<<SpawnBubble BubbleManager Work H>>
+<<SpawnBubble BubbleManager School2 C>>
+<<SpawnBubble BubbleManager Work2 H>>
 Anemoni: If I didn't have <holo>school</holo> and <holo>work</holo>, I'd come back and help in a heartbeat!
 <<CaptureReady BubbleManager>>
 ===

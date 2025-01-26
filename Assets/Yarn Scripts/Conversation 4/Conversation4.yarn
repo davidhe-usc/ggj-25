@@ -5,8 +5,6 @@ tags:
 <<PrepareLine Anemoni Neutral>>
 <<SpawnBubble BubbleManager SpentThisWeekTogether P>>
 Anemoni: You know, I'm glad we <holo>spent this week together</holo>.
-<<SpawnBubble BubbleManager SpentThisWeekTogether P>>
-Anemoni: You know, I'm glad we <holo>spent this week together</holo>.
 <<SpawnBubble BubbleManager Haven'tSpoken W>>
 I feel like <holo>we haven't spoken in like... forever</holo>.
 <<PrepareLine Nettle Neutral>>
@@ -66,7 +64,7 @@ Anemoni: To be honest, it feels like I'm fifteen again!
 Anemoni: Man, I haven't thought about <holo>these bands</holo> in forever.
 <<SpawnBubble BubbleManager AllThisStuff B>>
 Anemoni: I can't believe you still have <holo>all this stuff</holo>.
-<<SpawnBubble BubbleManager TheseBands E>>
+<<SpawnBubble BubbleManager TheBook E>>
 Anemoni: Oh my god, is that <holo>the book</holo> I was talking about?
 <<CaptureReady BubbleManager>>
 ===
