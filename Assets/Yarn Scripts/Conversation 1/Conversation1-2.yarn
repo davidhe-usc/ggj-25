@@ -1,8 +1,8 @@
 ﻿title: Conversation1-2
 tags:
 ---
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Sad>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Worried>>
 <<SpawnBubble BubbleManager Work H>>
 <<SpawnBubble BubbleManager School C>>
 <<SpawnBubble BubbleManager MyNewFriends P>>

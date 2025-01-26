@@ -1,9 +1,10 @@
 ﻿title: Conversation1-1-2Freeze
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: Oh? Like what?
+<<PrepareLine Anemoni Open>>
 <<SpawnBubble BubbleManager Work H>>
 <<SpawnBubble BubbleManager School C>>
 <<SpawnBubble BubbleManager MyNewFriends P>>

@@ -1,10 +1,10 @@
 ﻿title: Conversation1-3-2Pop
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Worried>>
 Nettle: I mean, what were you expecting? You've always tried to bite more than you could chew.
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Happy>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Sheepish>>
 Anemoni: Yeah... I guess that's just a bad habit of mine.
 ===

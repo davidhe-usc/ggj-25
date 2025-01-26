@@ -31,6 +31,9 @@ public class Bubble : MonoBehaviour
     public Sprite[] possibleSigils;
     public string[] sigilLetterCodes;
 
+    public int threshold = 5;
+    private int selectCounter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +46,8 @@ public class Bubble : MonoBehaviour
         push.Normalize();
 
         rb.velocity = push;
+
+        selectCounter = 0;
     }
 
     // Update is called once per frame
@@ -162,6 +167,19 @@ public class Bubble : MonoBehaviour
     {
         if(collision.tag == "Respawn") //Placeholder tag
             tooClose = true;
+        if(collision.tag == "Loop")
+        {
+            var bubbleBounds = this.GetComponent<Collider2D>().bounds;
+            bool checkMinBounds = (collision.bounds.min.x <= bubbleBounds.min.x && collision.bounds.min.y <= bubbleBounds.min.y);
+            bool checkMaxBounds = (collision.bounds.max.x >= bubbleBounds.max.x && collision.bounds.max.y >= bubbleBounds.max.y);
+            if (checkMinBounds && checkMaxBounds)
+            {
+                selectCounter++;
+                if (selectCounter >= threshold)
+                    SelectBubble();
+            }
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

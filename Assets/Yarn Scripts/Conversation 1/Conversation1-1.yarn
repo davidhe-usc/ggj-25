@@ -1,15 +1,16 @@
 ﻿title: Conversation1-1
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: Oh, sorry, could you repeat that? I totally tuned out.
-<<PrepareLine Nettle Happy>>
+<<PrepareLine Anemoni Neutral>>
 Anemoni: Oh, yeah, of course!
 <<SpawnBubble BubbleManager LastTimeIWasHere B>>
 Anemoni: I was just saying that Coralburg has changed so much since the <holo>last time I was here</holo>!
+<<PrepareLine Nettle Neutral>>
 Nettle: Well, the last time you were here, was what? A year ago?
-<<PrepareLine Anemoni Happy>>
+<<PrepareLine Anemoni Sheepish>>
 <<SpawnBubble BubbleManager There'sSoMuchToDo W>>
 Anemoni: Yeah, it's just hard to come visit when <holo>there's so much to do</holo> in Waveside.
 ===

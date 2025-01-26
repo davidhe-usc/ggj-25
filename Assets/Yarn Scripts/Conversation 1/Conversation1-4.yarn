@@ -1,15 +1,19 @@
 ﻿title: Conversation1-4
 tags:
 ---
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Happy>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Sheepish>>
 Anemoni: But that's life, isn't it?
-<<PrepareLine Anemoni Neutral>>
-Nettle: Hear, hear!
 <<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
+Nettle: Hear, hear!
+<<Emote Nettle Open>>
 Nettle: Look, I've got to go but it was so nice catching up! Are we still on for tomorrow?
-<<PrepareLine Nettle Happy>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
 Anemoni: Yep! Harborfront, right?
+<<PrepareLine Nettle Neutral>>
 Nettle: Mhm! See you there!
+<<PrepareLine Anemoni Neutral>>
 Anemoni: See you tomorrow!
 ===

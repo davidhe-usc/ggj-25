@@ -1,9 +1,9 @@
 ﻿title: Conversation2-1-2Pop
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: It's not a big deal if you can't find something for someone. We can just get them local candy or something.
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... but I'd feel bad about it.
 ===

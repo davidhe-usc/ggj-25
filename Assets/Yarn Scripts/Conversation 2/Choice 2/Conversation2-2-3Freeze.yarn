@@ -1,10 +1,10 @@
 ﻿title: Conversation2-2-3Freeze
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: Yeah, Waveside definitely has more going for it then little old Coralburg. 
-<<PrepareLine Nettle Happy>>
+<<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Happy>>
 Anemoni: I'm glad I got the chance to go, for sure!
 ===

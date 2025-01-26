@@ -1,9 +1,9 @@
 ﻿title: Conversation1-3-2Freeze
 tags:
 ---
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Worried>>
 Nettle: You'll get through it! You've always managed to do so.
-<<PrepareLine Anemoni Happy>>
+<<PrepareLine Anemoni Sheepish>>
 Anemoni: You're right! It still just sucks to have to do it, you know?
 ===

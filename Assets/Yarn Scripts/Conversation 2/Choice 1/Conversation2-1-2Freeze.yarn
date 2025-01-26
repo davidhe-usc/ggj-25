@@ -1,8 +1,8 @@
 ﻿title: Conversation2-1-2Freeze
 tags:
 ---
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
 Nettle: Let's take our time then!
 <<PrepareLine Anemoni Happy>>
 Anemoni: Mhm! Ooh, I like this!

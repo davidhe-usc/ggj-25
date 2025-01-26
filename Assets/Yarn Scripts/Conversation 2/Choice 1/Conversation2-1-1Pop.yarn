@@ -1,9 +1,9 @@
 ﻿title: Conversation2-1-1Pop
 tags:
 ---
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
 Nettle: What about your friends here?
-<<PrepareLine Anemoni Happy>>
+<<PrepareLine Anemoni Sheepish>>
 Anemoni: I got gifts for you guys too from Waveside!
 ===
