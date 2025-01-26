@@ -1,3 +1,5 @@
+using Febucci.UI;
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -12,6 +14,7 @@ public class BubbleManager : MonoBehaviour
     private List<Bubble> bubbles;
 
     public float bubbleDistanceLimit = 4f; //The minimum distance between each bubble
+    public float bubbleDelay = 1f; //The time in seconds between the line starting and the bubble appearing
 
     public Transform[] spawnPoints; //Where the bubbles are allowed to spawn
 
@@ -28,8 +31,15 @@ public class BubbleManager : MonoBehaviour
     }
 
     [YarnCommand("SpawnBubble")]
-    public void SpawnBubble(string bubbleLine)
+    public void SpawnBubble(string bubbleLine) //Old version that spawns the bubble at the start of a yarn line
     {
+        StartCoroutine(BubbleDelay(bubbleLine));
+    }
+
+    IEnumerator BubbleDelay(string bubbleLine)
+    {
+        yield return new WaitForSeconds(1f);
+
         Transform p;
         do
         {

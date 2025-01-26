@@ -8,9 +8,9 @@ System: Happy!
 <<Emote Anemoni Sad>>
 System: Sad...
 <<SpawnBubble BubbleManager One>>
-System: Spawn bubble!
+System: Spawn <holo>one</holo> bubble!
 <<SpawnBubble BubbleManager Two>>
-System: Another bubble!
+System: Bubble number <holo>two</holo>!
 <<SpawnBubble BubbleManager Three>>
-System: Last bubble!
+System: And one more makes <holo>three</holo>!
 ===
