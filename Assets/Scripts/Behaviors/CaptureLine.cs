@@ -53,16 +53,15 @@ public class CaptureLine : MonoBehaviour
         if (currentTail != null && currentTail.Value.decay)
         {
             pointQueue.RemoveFirst();
+            if (pointQueue.First != null)
+            {
+                pointQueue.First.Value.length = 0;
+            }
         }
 
-        if (pointQueue.First != null)
+        else if (loopCol.enabled)
         {
-            pointQueue.First.Value.length = 0;
-        }
-
-        if (loopCol.points.Length != 0)
-        {
-            loopCol.points = new Vector2[0];
+            loopCol.enabled = false;
         }
     }
 
@@ -151,6 +150,7 @@ public class CaptureLine : MonoBehaviour
         int closeIndex = Array.IndexOf(edgeCol.points, closePoint);
         Vector2[] loop = edgeCol.points[closeIndex..];
         loopCol.points = loop;
+        loopCol.enabled = true;
 
         ClearHalf();
     }

@@ -220,6 +220,7 @@ public class Bubble : MonoBehaviour
             case ("MyNewFriends"):
                 bubbleText.text = "My New Friends";
                 setNodes("1-2-3");
+                break;
             // choice 3
             case ("ILiked"):
                 bubbleText.text = "I Liked";
