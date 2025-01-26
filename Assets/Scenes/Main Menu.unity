@@ -1487,6 +1487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800803466}
   - component: {fileID: 800803467}
+  - component: {fileID: 800803468}
   m_Layer: 5
   m_Name: BGM Slider
   m_TagString: Untagged
@@ -1563,10 +1564,37 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 10
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 800803468}
+        m_TargetAssemblyTypeName: SettingsSlider, Assembly-CSharp
+        m_MethodName: UpdateSetting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &800803468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800803465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45e0b99ebfbc9347818b9d6d453dae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsSaveData: {fileID: 919902838}
+  thisSlider: {fileID: 800803467}
+  whichSettingToChange: 1
 --- !u!1 &907735317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,6 +1795,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8439c8d2342da3f438a0f9fe4d10d037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &919902838 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1559802539725236681, guid: 3373d4bcdfa475642b95da84355108cc, type: 3}
+  m_PrefabInstance: {fileID: 919902836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0fcb60ddf17704eb0b39734e3eb92b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &933870909
@@ -2659,6 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575947118}
   - component: {fileID: 1575947119}
+  - component: {fileID: 1575947120}
   m_Layer: 5
   m_Name: SFX Slider
   m_TagString: Untagged
@@ -2735,10 +2775,37 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 10
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1575947120}
+        m_TargetAssemblyTypeName: SettingsSlider, Assembly-CSharp
+        m_MethodName: UpdateSetting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1575947120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575947117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45e0b99ebfbc9347818b9d6d453dae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsSaveData: {fileID: 919902838}
+  thisSlider: {fileID: 1575947119}
+  whichSettingToChange: 0
 --- !u!1 &1616539367
 GameObject:
   m_ObjectHideFlags: 0
