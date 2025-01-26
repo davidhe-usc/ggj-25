@@ -7,4 +7,6 @@ tags:
 Nettle: What about your friends here?
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: I got gifts for you guys too from Waveside!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

@@ -8,4 +8,6 @@ Nettle: Your mom isn't necessarily wrong - it <i>is</i> a big city and you <i>do
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

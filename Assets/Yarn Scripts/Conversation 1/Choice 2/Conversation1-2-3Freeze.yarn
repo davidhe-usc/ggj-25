@@ -8,4 +8,6 @@ Nettle: Are you at least having a good time with these new friends?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: I am! They've made Waveside so much more enjoyable!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

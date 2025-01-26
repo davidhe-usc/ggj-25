@@ -8,4 +8,6 @@ Nettle: You could maybe try cutting back on some things? Not everything all at o
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah... you're right... cutting back doesn't necessarily mean completely cutting out, either!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

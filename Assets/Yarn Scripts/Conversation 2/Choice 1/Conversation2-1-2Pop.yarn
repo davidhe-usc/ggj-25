@@ -7,4 +7,6 @@ tags:
 Nettle: It's not a big deal if you can't find something for someone. We can just get them local candy or something.
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... but I'd feel bad about it.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

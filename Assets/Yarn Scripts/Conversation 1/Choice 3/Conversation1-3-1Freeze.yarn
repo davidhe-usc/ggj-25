@@ -7,4 +7,6 @@ tags:
 Nettle: Do you not enjoy it anymore? I think that's pretty important.
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

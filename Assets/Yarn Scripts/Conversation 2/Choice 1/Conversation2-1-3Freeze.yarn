@@ -7,4 +7,6 @@ tags:
 Nettle: Then you've definitely got to make this trip worth it!
 <<PrepareLine Anemoni Happy>>
 Anemoni: Yeah!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

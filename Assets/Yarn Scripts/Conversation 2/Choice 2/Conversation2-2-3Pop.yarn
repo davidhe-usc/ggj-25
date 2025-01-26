@@ -8,4 +8,6 @@ Nettle: I mean, it's not like you don't have opportunities here? Remember we wer
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... I still think about that sometimes.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

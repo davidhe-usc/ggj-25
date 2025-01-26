@@ -8,4 +8,6 @@ Nettle: What is your mom talking about? Waveside has some of the safest statisti
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: Right? I think she's just worried about me, is all.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

@@ -8,6 +8,8 @@ Nettle: I'm sure they're busy - plus don't you usually use teleports everywhere 
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah, you've got a point.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-1-1Freeze
@@ -19,6 +21,8 @@ tags:
 Nettle: What?? Not even offered? I'm sorry, but that's really inconsiderate! Do they at least check in?
 <<PrepareLine Anemoni Sad>>
 Anemoni: Yeah... but, to be fair, they usually don't walk places.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-1-2Pop
@@ -31,6 +35,8 @@ Nettle: Don't you usually use teleports everywhere in Waveside?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah, you've got a point.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-1-2Freeze
@@ -42,6 +48,8 @@ tags:
 Nettle: That'd never be a problem in Coralburg.
 <<PrepareLine Anemoni Sad>>
 Anemoni: Yeah... I miss it here, sometimes...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-1-3Pop
@@ -54,6 +62,8 @@ Nettle: Aren't there parks in Waveside?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: You're right, there are a few!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-1-3Freeze
@@ -66,6 +76,8 @@ Nettle: I guess that's the price you pay with a growing city, right?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah, nothing beats the small town atmosphere, especially if you grew up here.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-1Pop
@@ -77,6 +89,8 @@ tags:
 Nettle: Yeah, I appreciate it but I think I can manage so don't worry about me!
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Alright... just know that you've got me in your corner.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-1Freeze
@@ -88,6 +102,8 @@ tags:
 Nettle: Yeah, don't you miss it? We used to laugh so much and you loved making new drinks.
 <<PrepareLine Anemoni Worried>>
 Anemoni: I do miss it...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-2Pop
@@ -99,6 +115,8 @@ tags:
 Nettle: Is technical sorcery really what you want to do?
 <<PrepareLine Anemoni Worried>>
 Anemoni: I mean... yeah... but... I don't know, I really did like working at the cafe. I just didn't think it was sustainable.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-2Freeze
@@ -111,6 +129,8 @@ Nettle: But school is important to achieving your dreams!
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-3Pop
@@ -122,6 +142,8 @@ tags:
 Nettle: Do you really need to work? Do you even like your job?
 <<PrepareLine Anemoni Worried>>
 Anemoni: I mean... I don't <i>have</i> to do it...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-2-3Freeze
@@ -134,6 +156,8 @@ Nettle: Yeah, but you've got to pay those bills somehow, right?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Haha, yeah - what can I say, I love eating out!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-1Pop
@@ -146,6 +170,8 @@ Nettle: It can't be that bad at Waveside. Don't you go out with your friends?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah, you're right - I am forgetting that, haha.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-1Freeze
@@ -157,6 +183,8 @@ tags:
 Nettle: Is it really that bad in Waveside? It sounds like you don't even have a chance to breathe.
 <<PrepareLine Anemoni Worried>>
 Anemoni: Sometimes I really do feel like I'm going stir crazy...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-2Pop
@@ -169,6 +197,8 @@ Nettle: Do you really have to do anything that you can't handle?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: No... It's just stressful sometimes, haha!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-2Freeze
@@ -180,6 +210,8 @@ tags:
 Nettle: It sounds like you have way too much on your plate...
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... I mean, I'll manage, I always do, somehow.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-3Pop
@@ -192,6 +224,8 @@ Nettle: Surely you have <i>something</i>. Aren't you always telling me about the
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: You're right - I'm just exaggerating a little, haha!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation3-3-3Freeze
@@ -203,4 +237,6 @@ tags:
 Nettle: Do you not do anything for fun over there?
 <<PrepareLine Anemoni Worried>>
 Anemoni: It really doesn't feel like it...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

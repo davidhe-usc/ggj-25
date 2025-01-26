@@ -7,4 +7,6 @@ tags:
 Nettle: Your university is super intense! I wouldn't be able to do it.
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... I'm slowly starting to realize that. Maybe I'm not cut out for it...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

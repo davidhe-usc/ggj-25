@@ -8,4 +8,6 @@ Nettle: Yeah, work on top of everything else seems so stressful. I don't know ho
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: Haha, don't say that! I'm not too sure how I do it either! It's all a blur, really.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

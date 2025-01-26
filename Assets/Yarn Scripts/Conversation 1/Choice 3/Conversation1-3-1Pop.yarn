@@ -7,4 +7,6 @@ tags:
 Nettle: I'm sure it's just a rough patch - you can get through it!
 <<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... it's just difficult right now, you know?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

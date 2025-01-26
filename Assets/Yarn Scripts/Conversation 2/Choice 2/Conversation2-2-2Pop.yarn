@@ -7,4 +7,6 @@ tags:
 Nettle: Well, your dad didn't like half your friends here either and I don't think we're that bad!
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Haha, yeah, you're right! He's just being himself, you know?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

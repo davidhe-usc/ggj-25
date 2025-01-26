@@ -7,4 +7,6 @@ tags:
 Nettle: I mean, I know work has got to be work but isn't that to be expected?
 <<PrepareLine Anemoni Worried>>
 Anemoni: You're right... I knew what I was getting into when I got hired.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

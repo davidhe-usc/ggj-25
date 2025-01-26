@@ -110,4 +110,6 @@ Nettle: Yeah, me too.
 Anemoni: Good night, Nettle.
 <<PrepareLine Nettle Neutral>>
 Nettle: Good night, Anemoni.
+<<Wait 1>>
+<<EndScene BubbleManager>>
 ===

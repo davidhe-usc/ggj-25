@@ -12,4 +12,6 @@ Anemoni: We're still hanging out the day after tomorrow, right?
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: Yep!
+<<Wait 1>>
+<<EndScene BubbleManager>>
 ===

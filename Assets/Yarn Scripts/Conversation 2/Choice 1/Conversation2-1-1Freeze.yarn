@@ -7,4 +7,6 @@ tags:
 Nettle: You still need to tell me more about them. How'd you meet them?
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Oh, some of them are classmates and a few are coworkers!
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

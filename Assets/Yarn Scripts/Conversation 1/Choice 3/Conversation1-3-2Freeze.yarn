@@ -7,4 +7,6 @@ tags:
 Nettle: You'll get through it! You've always managed to do so.
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: You're right! It still just sucks to have to do it, you know?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

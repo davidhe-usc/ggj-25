@@ -83,6 +83,7 @@ Anemoni: ...
 Anemoni: Look, I'll give what you said some thought.
 <<Emote Nettle Neutral>>
 Anemoni: I really will!
+<<FiveFive BubbleManager>>
 ===
 
 title: Conversation5-5Selfish
@@ -93,6 +94,8 @@ tags:
 Nettle: Oh, look - it's starting to snow.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Wow, it really is like old times...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-5Selfless
@@ -103,6 +106,8 @@ tags:
 Nettle: Oh, look - it's really starting to clear up.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Wow, the sky is beautiful...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-6
@@ -118,4 +123,6 @@ Nettle: Yeah?
 Anemoni: Can I have a hug?
 <<PrepareLine Nettle Neutral>>
 Nettle: Of course.
+<<Wait 1>>
+<<EndScene BubbleManager>>
 ===

@@ -31,6 +31,9 @@ public class BubbleManager : MonoBehaviour
 
     private string afterNode; //The node that plays after the current freeze/pop choice
 
+    public Texture2D defaultCursor;
+    public Texture2D wandCursor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,7 @@ public class BubbleManager : MonoBehaviour
         cm = FindObjectOfType<CaptureManager>();
         bubbles = new List<Bubble>();
         choiceMenu.alpha = 0f;
+        Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
     }
 
     // Update is called once per frame
@@ -71,11 +75,14 @@ public class BubbleManager : MonoBehaviour
     public void BubblesReady()
     {
         cm.canCapture = true;
+        Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
     }
 
     public void BubbleChosen(string id, string l, Bubble bubble) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
     {
         cm.canCapture = false;
+
+        Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
 
         activeBubble = bubble;
 
@@ -161,15 +168,33 @@ public class BubbleManager : MonoBehaviour
     [YarnCommand("NextNode")]
     public void NextNode()
     {
-        StartCoroutine(QueueNode());
+        StartCoroutine(QueueNode(afterNode));
     }
 
-    IEnumerator QueueNode()
+    IEnumerator QueueNode(string node)
     {
         while(dr.IsDialogueRunning)
         {
             yield return null;
         }
-        dr.StartDialogue(afterNode);
+        dr.StartDialogue(node);
+    }
+
+    [YarnCommand("FiveFive")]
+    public void SetFive()
+    {
+        afterNode = "Conversation5-6";
+        if (PlayerPrefs.GetInt("SelflessEndAchieved") == 1)
+        {
+            StartCoroutine(QueueNode("Conversation5-5Selfless"));
+        }
+        else if (PlayerPrefs.GetInt("SelfishEndAchieved") == 1)
+        {
+            StartCoroutine(QueueNode("Conversation5-5Selfish"));
+        }
+        else
+        {
+            StartCoroutine(QueueNode("Conversation5-6"));
+        }
     }
 }

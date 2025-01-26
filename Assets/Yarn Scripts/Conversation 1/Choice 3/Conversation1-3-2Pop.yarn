@@ -8,4 +8,6 @@ Nettle: I mean, what were you expecting? You've always tried to bite more than y
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: Yeah... I guess that's just a bad habit of mine.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===

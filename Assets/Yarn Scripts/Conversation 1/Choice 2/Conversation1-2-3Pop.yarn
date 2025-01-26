@@ -7,4 +7,6 @@ tags:
 Nettle: Do you think you can maintain friends with your busy schedule?
 <<PrepareLine Anemoni Worried>>
 Anemoni: You're right...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
