@@ -1,0 +1,111 @@
+﻿title: Conversation4-1
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager SpentThisWeekTogether P>>
+Anemoni: You know, I'm glad we <holo>spent this week together</holo>.
+<<SpawnBubble BubbleManager SpentThisWeekTogether P>>
+Anemoni: You know, I'm glad we <holo>spent this week together</holo>.
+<<SpawnBubble BubbleManager Haven'tSpoken W>>
+I feel like <holo>we haven't spoken in like... forever</holo>.
+<<PrepareLine Nettle Neutral>>
+Nettle: Yeah? Me too.
+<<PrepareLine Anemoni Open>>
+Anemoni: Why is that, you think?
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
+Nettle: I don't know. I think I was maybe scared of you changing.
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Open>>
+<<SpawnBubble BubbleManager We'veChanged M>>
+Nettle: Do you think <holo>we've changed</holo> that much?
+===
+
+title: Conversation4-2
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: I think we'll always be friends despite everything.
+<<PrepareLine Nettle Open>>
+Nettle: You think?
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Of course!
+<<SpawnBubble BubbleManager SnuckOut M>>
+Anemoni: Don't you remember when we <holo>snuck out</holo> to go see all those shows together?
+<<PrepareLine Nettle Open>>
+Nettle: Oh no.
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager AwfulCrush W>>
+Anemoni: Or when I supported you through that <holo>awful crush</holo> you had on our tutor?
+<<PrepareLine Nettle Open>>
+Nettle: Oh <i>no</i>.
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager MatchingEarrings S>>
+Anemoni: Or when we got <holo>matching earrings</holo> together?
+===
+
+title: Conversation4-3
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: You know, this room really brings back so many memories. We had so many sleepovers here!
+<<PrepareLine Nettle Neutral>>
+Nettle: 'Sleep' is really used lightly in this context, haha.
+<<PrepareLine Anemoni Neutral>>
+Anemoni: To be honest, it feels like I'm fifteen again!
+<<Emote Anemoni Open>>
+<<SpawnBubble BubbleManager TheseBands S>>
+Anemoni: Man, I haven't thought about <holo>these bands</holo> in forever.
+<<SpawnBubble BubbleManager AllThisStuff B>>
+Anemoni: I can't believe you still have <holo>all this stuff</holo>.
+<<SpawnBubble BubbleManager TheseBands E>>
+Anemoni: Oh my god, is that <holo>the book</holo> I was talking about?
+===
+
+title: Conversation4-4
+tags:
+---
+<<PrepareLine Nettle Neutral>>
+<<Emote Anemoni Neutral>>
+Nettle: For sure.
+<<PrepareLine Nettle Open>>
+Nettle: You know, how's your life in Waveside?
+Nettle: I've heard you talk about work and school and friends.
+Nettle: But what about you? How are you doing?
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Open>>
+Anemoni: ...
+<<SpawnBubble BubbleManager SuperConvenient H>>
+Anemoni: I've been good! I really do like Waveside, it's <holo>super convenient</holo> and there's always something to do but...
+<<PrepareLine Nettle Open>>
+Nettle: But?
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Open>>
+<<SpawnBubble BubbleManager ThingsWereSlower B>>
+Anemoni: I can't say I don't <holo>miss when things were... slower</holo>. I don't know. Simpler?
+<<PrepareLine Anemoni Sad>>
+<<SpawnBubble BubbleManager IfIStayedHere P>>
+Anemoni: Sometimes I wish that I could see what life would be like <holo>if I stayed here</holo>.
+===
+
+title: Conversation4-5
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Open>>
+Anemoni: I think I'm going to try to get some sleep for tonight.
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
+Nettle: Yeah, me too.
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Good night, Nettle.
+<<PrepareLine Nettle Neutral>>
+Nettle: Good night, Anemoni.
+===

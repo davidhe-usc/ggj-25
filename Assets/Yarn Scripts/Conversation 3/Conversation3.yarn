@@ -1,0 +1,69 @@
+﻿title: Conversation3-1
+tags:
+---
+<<Emote Nettle Happy>>
+<<PrepareLine Anemoni Happy>>
+Anemoni: Hey, thanks for walking me home...
+<<Emote Anemoni Neutral>>
+<<SpawnBubble BubbleManager MyFriends P>>
+<<SpawnBubble BubbleManager FeelSafer K>>
+Anemoni: None of <holo>my friends</holo> in Waveside have done that for me - I <holo>feel a lot safer</holo> with you doing this.
+<<Emote Anemoni Happy>>
+<<SpawnBubble BubbleManager WalkSomewhereNice O>>
+Anemoni: It's also nice to actually <holo>walk somewhere nice</holo>, for once.
+===
+
+title: Conversation3-2
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: How's your family? Are you guys still running the cafe?
+<<PrepareLine Nettle Open>>
+Nettle: Yeah, but my parents are definitely thinking about retiring so I've been doing a lot more around the place.
+Nettle: I'll probably end up taking over.
+Nettle: But it's kind of all I know, you know?
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager WhenWeWorkedTogether B>>
+Anemoni: But you love that place, it was always <holo>so fun when we worked there together!</holo>
+<<PrepareLine Nettle Open>>
+Nettle: Yeah, it was... when we worked there together.
+<<Emote Anemoni Worried>>
+Nettle: Some things I just don't do as well as you do.
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Worried>>
+Anemoni: Don't be like that!
+<<SpawnBubble BubbleManager School C>>
+<<SpawnBubble BubbleManager Work H>>
+Anemoni: If I didn't have <holo>school</holo> and <holo>work</holo>, I'd come back and help in a heartbeat!
+===
+
+title: Conversation3-3
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+<<SpawnBubble BubbleManager CoopedUp C>>
+<<SpawnBubble BubbleManager StuffIHaveToDo W>>
+Anemoni: The fresh air is nice... I'm always so <holo>cooped up</holo> because of all the <holo>stuff I have to do</holo>.
+<<SpawnBubble BubbleManager ActuallyRelaxed O>>
+Anemoni: Today was really nice, I had fun! It's been a while since <holo>I actually relaxed</holo>.
+===
+
+title: Conversation3-4
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Well, this is me!
+<<PrepareLine Nettle Neutral>>
+Nettle: How could I forget? I've been here so many times in the past!
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Well, you should come over more often so you remember better!
+<<PrepareLine Nettle Neutral>>
+Nettle: Yeah, maybe, haha.
+Nettle: Good night! See you tomorrow!
+<<PrepareLine Anemoni Neutral>>
+Anemoni: Good night!
+===
