@@ -1,11 +1,13 @@
 ﻿title: Conversation1-1-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: That's alright, you can always come back whenever you want! Coralburg isn't going anywhere.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: You're right!
 <<wait 1>>
 <<NextNode BubbleManager>>

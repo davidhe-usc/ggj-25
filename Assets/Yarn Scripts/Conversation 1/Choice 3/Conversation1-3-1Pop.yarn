@@ -1,11 +1,13 @@
 ﻿title: Conversation1-3-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Worried>>
 Nettle: I'm sure it's just a rough patch - you can get through it!
 <<PrepareLine Anemoni Worried>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah... it's just difficult right now, you know?
 <<wait 1>>
 <<NextNode BubbleManager>>

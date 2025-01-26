@@ -1,11 +1,13 @@
 ﻿title: Conversation2-2-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Well, you can't be too careful, I guess? I mean, how well do you really know these people?
 <<PrepareLine Anemoni Worried>>
+<<Mouth Nettle 0>>
 Anemoni: I mean, I think I know them well enough? But I guess you're right...
 <<wait 1>>
 <<NextNode BubbleManager>>
