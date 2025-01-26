@@ -176,7 +176,6 @@ public class Bubble : MonoBehaviour
             if (checkMinBounds && checkMaxBounds)
             {
                 selectCounter++;
-                Debug.Log(selectCounter);
                 if (selectCounter >= threshold)
                     SelectBubble();
             }
