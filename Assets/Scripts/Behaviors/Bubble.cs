@@ -11,6 +11,7 @@ public class Bubble : MonoBehaviour
 
     public TextMeshPro bubbleText;
     public SpriteRenderer bubbleTextBox;
+    public SpriteRenderer bubbleSigil;
 
     public string id;
 
@@ -22,6 +23,10 @@ public class Bubble : MonoBehaviour
     public float startVelocity = 1f; //The magnitude of the bubble's starting velocity
     public float minLifetime = 3f; //The minimum time between the bubble spawning and being able to brake
 
+    private string sigilLetter;
+    public Sprite[] possibleSigils;
+    public string[] sigilLetterCodes;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -80,14 +85,16 @@ public class Bubble : MonoBehaviour
         }
     }
 
-    public void Setup(BubbleManager m, Collider2D t, string l)
+    public void Setup(BubbleManager m, Collider2D t, string l, string s)
     {
         manager = m;
         mainTextBox = t;
         id = l;
+        sigilLetter = s;
 
         //Once we have a complete list of bubble lines, set it up so that we can get the text line from the string identifier.
         bubbleText.text = id;
+        AssignSigil();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -100,5 +107,24 @@ public class Bubble : MonoBehaviour
     {
         if (collision.tag == "Respawn") //Placeholder tag
             tooClose = false;
+    }
+
+    private void AssignSigil()
+    {
+        int sigilIndex = 0;
+        bool sigilFound = false;
+        for (int i = 0; i < sigilLetterCodes.Length && sigilFound == false; i++)
+        {
+            if(sigilLetter.Equals(sigilLetterCodes[i]))
+            {
+                sigilIndex = i;
+                sigilFound = true;
+            }
+        }
+        if (sigilFound == false)
+        {
+            Debug.LogError("Sigil letter " + sigilLetter + " not found!  Default sigil used!");
+        }
+        bubbleSigil.sprite = possibleSigils[sigilIndex];
     }
 }
