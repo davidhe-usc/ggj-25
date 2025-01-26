@@ -20,6 +20,7 @@ Nettle: I don't know. I think I was maybe scared of you changing.
 <<PrepareLine Anemoni Open>>
 <<SpawnBubble BubbleManager We'veChanged M>>
 Nettle: Do you think <holo>we've changed</holo> that much?
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation4-2
@@ -47,6 +48,7 @@ Nettle: Oh <i>no</i>.
 <<PrepareLine Anemoni Neutral>>
 <<SpawnBubble BubbleManager MatchingEarrings S>>
 Anemoni: Or when we got <holo>matching earrings</holo> together?
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation4-3
@@ -66,6 +68,7 @@ Anemoni: Man, I haven't thought about <holo>these bands</holo> in forever.
 Anemoni: I can't believe you still have <holo>all this stuff</holo>.
 <<SpawnBubble BubbleManager TheseBands E>>
 Anemoni: Oh my god, is that <holo>the book</holo> I was talking about?
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation4-4
@@ -92,6 +95,7 @@ Anemoni: I can't say I don't <holo>miss when things were... slower</holo>. I don
 <<PrepareLine Anemoni Sad>>
 <<SpawnBubble BubbleManager IfIStayedHere P>>
 Anemoni: Sometimes I wish that I could see what life would be like <holo>if I stayed here</holo>.
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation4-5

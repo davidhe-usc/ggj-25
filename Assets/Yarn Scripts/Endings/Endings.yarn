@@ -1,0 +1,46 @@
+﻿title: Ending1-Selfish
+tags:
+---
+ : After returning to Waveside, Anemoni decided that she really would rather come back to Coralburg instead.
+ : She's been back for a couple months now, working at our cafe. She seems a lot happier to me.
+ : I know I'm definitely a lot happier.
+ : But sometimes, late at night, we still have conversations - what if she stayed in school. 
+ : What if she regrets her decision?
+ : But those are just late night conversations. She's definitely happier now.
+===
+
+title: Ending2-Selfless
+tags:
+---
+ : After returning to Waveside, Anemoni and I have been chatting more on the phone.
+ : We talk about her favorite books, new music I'm listening to, and our respective lives.
+ : I do still miss her but I'm happy knowing that she's pursuing her dreams
+ : After that night, she left Coralburg much happier and promised to meet up again soon.
+ : In fact, I'll be visiting her in Waveside next week!
+ : I don't know what I was so worried about before but I'm glad we're both happy.
+===
+
+title: Ending3-Neutral
+tags:
+---
+ : After returning to Waveside, Anemoni and I kept in contact for a bit.
+ : We'd chat about this and that. Books, music. Life in general.
+ : But eventually, like before, the conversations began to peter out.
+ : I was busy with the cafe and she was busy with her life.
+ : But that's just how things go sometimes, right?
+===
+
+title: AbruptEnding
+tags:
+---
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Worried>>
+Anemoni: You know, I actually think I have to go.
+<<PrepareLine Nettle Open>>
+Nettle: Oh, is everything alright?
+<<PrepareLine Anemoni Worried>>
+Anemoni: Yeah, everything's fine...
+Anemoni: I just don't think things are going very well.
+Anemoni: Maybe I'll talk to you later.
+Anemoni: Bye.
+===

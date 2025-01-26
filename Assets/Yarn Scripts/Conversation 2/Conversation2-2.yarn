@@ -13,5 +13,6 @@ Anemoni: Yeah, I'm staying with them right now!
 Anemoni: And they've been mixed about it... my mom <holo>doesn't think it's super safe</holo> and my dad <holo>doesn't like some of my friends</holo>.
 <<Emote Anemoni Neutral>>
 <<SpawnBubble BubbleManager BestOpportunities E>>
-Anemoni: But overall, they think Waveside has the <holo>best opportunities</holo> for me
+Anemoni: But overall, they think Waveside has the <holo>best opportunities</holo> for me.
+<<CaptureReady BubbleManager>>
 ===

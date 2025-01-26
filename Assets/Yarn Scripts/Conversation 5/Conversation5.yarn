@@ -24,6 +24,7 @@ Anemoni: It was so nice to see <holo>the cafe</holo> and all the old places agai
 <<Emote Anemoni TrueNeutral>>
 <<SpawnBubble BubbleManager StillAPlaceForMe P>>
 Anemoni: Is there really <holo>still a place for me</holo> here?
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation5-2
@@ -41,6 +42,7 @@ Nettle: How could I forget?
 <<PrepareLine Anemoni Cheerful>>
 <<SpawnBubble BubbleManager HereAllTheTime P>>
 Anemoni: We really were <holo>here all the time</holo>!
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation5-3
@@ -69,18 +71,7 @@ Nettle: I miss you. Don't you miss me? I know you do.
 <<PrepareLine Anemoni TrueNeutral>>
 <<SpawnBubble BubbleManager MissYou P>>
 Anemoni: I <i>do</i> <holo>miss you</holo>.
-
-
-
-<<PrepareLine Anemoni Neutral>>
-Anemoni: To be honest, it feels like I'm fifteen again!
-<<Emote Anemoni Open>>
-<<SpawnBubble BubbleManager TheseBands S>>
-Anemoni: Man, I haven't thought about <holo>these bands</holo> in forever.
-<<SpawnBubble BubbleManager AllThisStuff B>>
-Anemoni: I can't believe you still have <holo>all this stuff</holo>.
-<<SpawnBubble BubbleManager TheseBands E>>
-Anemoni: Oh my god, is that <holo>the book</holo> I was talking about?
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation5-4

@@ -11,6 +11,7 @@ Anemoni: None of <holo>my friends</holo> in Waveside have done that for me - I <
 <<Emote Anemoni Happy>>
 <<SpawnBubble BubbleManager WalkSomewhereNice O>>
 Anemoni: It's also nice to actually <holo>walk somewhere nice</holo>, for once.
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation3-2
@@ -37,6 +38,7 @@ Anemoni: Don't be like that!
 <<SpawnBubble BubbleManager School C>>
 <<SpawnBubble BubbleManager Work H>>
 Anemoni: If I didn't have <holo>school</holo> and <holo>work</holo>, I'd come back and help in a heartbeat!
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation3-3
@@ -49,6 +51,7 @@ tags:
 Anemoni: The fresh air is nice... I'm always so <holo>cooped up</holo> because of all the <holo>stuff I have to do</holo>.
 <<SpawnBubble BubbleManager ActuallyRelaxed O>>
 Anemoni: Today was really nice, I had fun! It's been a while since <holo>I actually relaxed</holo>.
+<<CaptureReady BubbleManager>>
 ===
 
 title: Conversation3-4
