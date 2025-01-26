@@ -5,7 +5,7 @@ tags:
 <<PrepareLine Anemoni Happy>>
 Anemoni: Hey, thanks for walking me home...
 <<Emote Anemoni Neutral>>
-<<SpawnBubble BubbleManager MyFriends P>>
+<<SpawnBubble BubbleManager MyFriends2 P>>
 <<SpawnBubble BubbleManager FeelSafer K>>
 Anemoni: None of <holo>my friends</holo> in Waveside have done that for me - I <holo>feel a lot safer</holo> with you doing this.
 <<Emote Anemoni Happy>>
