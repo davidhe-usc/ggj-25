@@ -1,8 +1,9 @@
 ﻿title: Conversation1-3-1Freeze
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Worried>>
 Nettle: Do you not enjoy it anymore? I think that's pretty important.
+<<PrepareLine Anemoni Worried>>
 Anemoni: Yeah...
 ===

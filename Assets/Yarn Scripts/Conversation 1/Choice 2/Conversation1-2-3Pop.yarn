@@ -1,8 +1,9 @@
 ﻿title: Conversation1-2-3Pop
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Worried>>
 Nettle: Do you think you can maintain friends with your busy schedule?
+<<PrepareLine Anemoni Worried>>
 Anemoni: You're right...
 ===

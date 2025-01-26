@@ -1,13 +1,14 @@
 ﻿title: Conversation2-1
 tags:
 ---
-<<PrepareLine Nettle Happy>>
+<<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Happy>>
 Anemoni: Look at this!
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: Oh, that's so cute!
-<<PrepareLine Nettle Happy>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Neutral>>
 <<SpawnBubble BubbleManager MyFriends P>>
 Anemoni: I think one of <holo>my friends</holo> would really enjoy this!
 <<SpawnBubble BubbleManager Souvenirs S>>

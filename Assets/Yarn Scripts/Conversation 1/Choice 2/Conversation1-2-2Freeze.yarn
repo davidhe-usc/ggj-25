@@ -1,9 +1,10 @@
 ﻿title: Conversation1-2-2Freeze
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Sad>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Worried>>
 Nettle: I thought school would be fun? You were so excited for it!
+<<PrepareLine Anemoni Worried>>
 <<SpawnBubble BubbleManager IWas W>>
 <<SpawnBubble BubbleManager ALotOfWork H>>
 <<SpawnBubble BubbleManager HardToManage E>>

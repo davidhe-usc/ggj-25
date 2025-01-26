@@ -1,10 +1,10 @@
 ﻿title: Conversation2-2-3Pop
 tags:
 ---
-<<PrepareLine Nettle Neutral>>
-<<PrepareLine Anemoni Neutral>>
+<<PrepareLine Nettle Open>>
+<<Emote Anemoni Neutral>>
 Nettle: I mean, it's not like you don't have opportunities here? Remember we were going to run the cafe together?
-<<PrepareLine Nettle Happy>>
-<<PrepareLine Anemoni Sad>>
+<<Emote Nettle Neutral>>
+<<PrepareLine Anemoni Worried>>
 Anemoni: Yeah... I still think about that sometimes.
 ===
