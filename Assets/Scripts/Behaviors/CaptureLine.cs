@@ -112,6 +112,19 @@ public class CaptureLine : MonoBehaviour
         return (lineDist > 0.1f);
     }
 
+    public void ClearHalf()
+    {
+        int length = pointQueue.Count;
+        int mid = length / 2;
+        int count = 0;
+        
+        while(count < mid)
+        {
+            pointQueue.RemoveFirst();
+            count++;
+        }
+    }
+
     private void CloseLoop(Vector2 closePoint)
     {
         int closeIndex = Array.IndexOf(edgeCol.points, closePoint);
@@ -119,7 +132,7 @@ public class CaptureLine : MonoBehaviour
         loopCol.points = loop;
         Debug.Log("Loop Detected");
 
-        pointQueue.Clear();
+        ClearHalf();
     }
 
     private Vector2 ClosestVertex(Vector2 other)
