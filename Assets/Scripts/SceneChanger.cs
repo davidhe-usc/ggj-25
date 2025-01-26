@@ -14,7 +14,6 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    [YarnCommand("EndScene")]
     public void DelayedLoadScene(float delay)
     {
         StartCoroutine(WaitThenLoadNextScene(delay));
@@ -23,6 +22,12 @@ public class SceneChanger : MonoBehaviour
     IEnumerator WaitThenLoadNextScene(float delay)
     {
         yield return new WaitForSeconds(delay);
+        LoadScene(nextScene);
+    }
+
+    [YarnCommand("EndScene")]
+    public void LoadNextScene()
+    {
         LoadScene(nextScene);
     }
 

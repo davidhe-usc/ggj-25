@@ -7,6 +7,7 @@ tags:
  : But sometimes, late at night, we still have conversations - what if she stayed in school. 
  : What if she regrets her decision?
  : But those are just late night conversations. She's definitely happier now.
+ <<EndScene EndingManager>>
 ===
 
 title: Ending2-Selfless
@@ -18,6 +19,7 @@ tags:
  : After that night, she left Coralburg much happier and promised to meet up again soon.
  : In fact, I'll be visiting her in Waveside next week!
  : I don't know what I was so worried about before but I'm glad we're both happy.
+ <<EndScene EndingManager>>
 ===
 
 title: Ending3-Neutral
@@ -28,6 +30,7 @@ tags:
  : But eventually, like before, the conversations began to peter out.
  : I was busy with the cafe and she was busy with her life.
  : But that's just how things go sometimes, right?
+ <<EndScene EndingManager>>
 ===
 
 title: AbruptEnding
