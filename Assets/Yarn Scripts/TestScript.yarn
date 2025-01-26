@@ -7,10 +7,10 @@ System: This is a test.
 System: Happy!
 <<Emote Anemoni Sad>>
 System: Sad...
-<<SpawnBubble BubbleManager One E>>
+<<SpawnBubble BubbleManager One>>
 System: Spawn <holo>one</holo> bubble!
-<<SpawnBubble BubbleManager Two H>>
+<<SpawnBubble BubbleManager Two>>
 System: Bubble number <holo>two</holo>!
-<<SpawnBubble BubbleManager Three S>>
+<<SpawnBubble BubbleManager Three>>
 System: And one more makes <holo>three</holo>!
 ===

@@ -35,10 +35,6 @@ public class Jiggler : MonoBehaviour
             Debug.Log("snapped, new target of " + targetPosition);
             //Debug.Log((targetPosition.x - rectTransform.localPosition.x) + ", " + (targetPosition.y - rectTransform.localPosition.y));
         }
-        if(targetPosition.x == rectTransform.localPosition.x) //Avoid divide by 0 error
-        {
-            targetPosition = new Vector2(targetPosition.x + 0.01f, targetPosition.y);
-        }
         float angle = Mathf.Tan((targetPosition.y - rectTransform.localPosition.y) / (targetPosition.x - rectTransform.localPosition.x));
         if (targetPosition.x < rectTransform.localPosition.x)
         {

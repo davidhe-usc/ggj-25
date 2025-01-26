@@ -31,12 +31,12 @@ public class BubbleManager : MonoBehaviour
     }
 
     [YarnCommand("SpawnBubble")]
-    public void SpawnBubble(string bubbleLine, string sigilLetter) //Old version that spawns the bubble at the start of a yarn line
+    public void SpawnBubble(string bubbleLine) //Old version that spawns the bubble at the start of a yarn line
     {
-        StartCoroutine(BubbleDelay(bubbleLine, sigilLetter));
+        StartCoroutine(BubbleDelay(bubbleLine));
     }
 
-    IEnumerator BubbleDelay(string bubbleLine, string sigilLetter)
+    IEnumerator BubbleDelay(string bubbleLine)
     {
         yield return new WaitForSeconds(1f);
 
@@ -48,7 +48,7 @@ public class BubbleManager : MonoBehaviour
 
         Bubble b = Instantiate(bubblePrefab, p.position, Quaternion.identity).GetComponent<Bubble>();
         bubbles.Add(b);
-        b.Setup(this, textBoxCollider, bubbleLine, sigilLetter);
+        b.Setup(this, textBoxCollider, bubbleLine);
     }
 
     public void BubbleChosen(string id, bool popped)
