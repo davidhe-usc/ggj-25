@@ -13,11 +13,16 @@ public class Character : MonoBehaviour
     public LineView textBox; //The personal text box for this character
     public GameObject mouth;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         dr = FindObjectOfType<DialogueRunner>(); //We only got one per scene
         sr = GetComponent<SpriteRenderer>(); //Get this character's renderer
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame
@@ -77,8 +82,15 @@ public class Character : MonoBehaviour
     public void PrepareLine(string emote) //Prepares the dialogue runner to display lines from this character. Call again to change emotion
     {
         //dr.dialogueViews[0] = textBox; //Set the active line view to this character'son
-        DialogueViewBase[] box = { textBox };
-        dr.SetDialogueViews(box);
+        if (textBox != null)
+        {
+            DialogueViewBase[] box = { textBox };
+            dr.SetDialogueViews(box);
+        }
+        else
+        {
+            Debug.LogWarning("Issues");
+        }
 
 
         SetEmote(emote);
