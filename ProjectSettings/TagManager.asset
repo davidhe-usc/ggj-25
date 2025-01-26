@@ -44,3 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Character
+    uniqueID: 168468487
+    locked: 0
+  - name: Border
+    uniqueID: 1734741729
+    locked: 0
