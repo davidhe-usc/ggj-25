@@ -169,7 +169,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -751,7 +751,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 2
+      value: 0.6
       mode: 0
       spread: 0
       speed:
@@ -5080,6 +5080,7 @@ GameObject:
   - component: {fileID: 8919119459287482106}
   - component: {fileID: 4471479889544481951}
   - component: {fileID: 2610462914699610081}
+  - component: {fileID: 9005177091155089054}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -5155,6 +5156,8 @@ MonoBehaviour:
   bubbleText: {fileID: 8284755357537506217}
   bubbleTextBox: {fileID: 7544320577371464335}
   id: no id set
+  startVelocity: 1
+  minLifetime: 3
 --- !u!50 &2610462914699610081
 Rigidbody2D:
   serializedVersion: 4
@@ -5182,6 +5185,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &9005177091155089054
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974874792724651242}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53f9fdbca11bd1446a291c335eb36e4e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7389303814845751145
 GameObject:
   m_ObjectHideFlags: 0
