@@ -40,6 +40,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FreezeTexture:
+        m_Texture: {fileID: 2800000, guid: c35f4c8cff14d234596d10b7a9a3d669, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _HoloTexture:
         m_Texture: {fileID: 2800000, guid: 11cfd8086df141a44a52ec07a4db5c53, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -71,7 +75,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _FreezeProgress: 0
+    - _FreezeProgress: 0.667
     - _OutlineThickness: 0.05
     - _Wobble_Strength: 0.09
     m_Colors:
