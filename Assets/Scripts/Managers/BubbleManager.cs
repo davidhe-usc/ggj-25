@@ -122,7 +122,11 @@ public class BubbleManager : MonoBehaviour
             popInputReady = false;
             StartCoroutine(FadeChoices(false));
 
-            dr.StartDialogue(activeBubble.Pop(pop));
+            var nodes = activeBubble.Pop(pop);
+
+            dr.StartDialogue(nodes.Result);
+
+            afterNode = nodes.After;
 
             bubbles.Clear();
         }

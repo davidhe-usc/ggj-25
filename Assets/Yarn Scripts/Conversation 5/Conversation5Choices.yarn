@@ -8,6 +8,8 @@ Nettle: You should move on with your life.
 <<Emote Nettle TrueNeutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: Yeah...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-1-1Freeze
@@ -20,6 +22,8 @@ Nettle: Yeah, I really missed you too. Things haven't really been the same witho
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: Yeah... things definitely don't feel right where I'm at either...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-1-2Pop
@@ -32,6 +36,8 @@ Nettle: I mean, that cafe has survived long before either of us were a part of i
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah... you're right.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-1-2Freeze
@@ -44,6 +50,8 @@ Nettle: We could always use your help - I'd always appreciate it.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Really?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-1-3Pop
@@ -56,6 +64,8 @@ Nettle: You should move on with your life. You chose Waveside.
 <<Emote Nettle TrueNeutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: Yeah...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-1-3Freeze
@@ -67,6 +77,8 @@ tags:
 Nettle: There'll always be a place for you if you want it.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Thanks, I appreciate that...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-1Pop
@@ -79,6 +91,8 @@ Nettle: Yeah, I haven't been here in so long...
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
 Anemoni: If I weren't here, I'd barely remember it, haha...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-1Freeze
@@ -90,6 +104,8 @@ tags:
 Nettle: I really like being here with you. It brings back a lot of old memories.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Yeah? Me too.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-2Pop
@@ -102,6 +118,8 @@ Nettle: But we aren't kids anymore, are we?
 <<Emote Nettle TrueNeutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: No... we're real big adults with real big responsibilities, aren't we?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-2Freeze
@@ -114,6 +132,8 @@ Nettle: Sometimes I miss those days...
 <<Emote Nettle TrueNeutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: Yeah... me too.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-3Pop
@@ -125,6 +145,8 @@ tags:
 Nettle: So much time wasted here.
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: I don't really see it as a waste...
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-2-3Freeze
@@ -136,6 +158,8 @@ tags:
 Nettle: We should come here whenever you're in town. I like being here with you.
 <<PrepareLine Anemoni Neutral>>
 Anemoni: ... yeah.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-1Pop
@@ -148,6 +172,8 @@ Nettle: It could be that simple. You just come back. It's that easy.
 <<Emote Nettle TrueNeutral>>
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: ... I'll... I'll think about it.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-1Freeze
@@ -159,6 +185,8 @@ tags:
 Nettle: You're right... it wasn't realistic of me.
 <<PrepareLine Anemoni TrueNeutral	>>
 Anemoni: I get it, I really do, but I can't just up and leave everything, you know?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-2Pop
@@ -170,6 +198,8 @@ tags:
 Nettle: No... you're right. You shouldn't.
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: It's not because of you, you know that, right?
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-2Freeze
@@ -181,6 +211,8 @@ tags:
 Nettle: You could definitely stay! Don't you miss your life here? What it used to be?
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: You know, I always wanted to leave so bad I didn't realize how much I'd miss it when I was gone.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-3Pop
@@ -192,6 +224,8 @@ tags:
 Nettle: I get it... I'm not enough, am I?
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: I <i>do</i> miss you but my life doesn't revolve around you.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
 
 title: Conversation5-3-3Freeze
@@ -203,4 +237,6 @@ tags:
 Nettle: Then you should stay. You could just come back. I'm right here.
 <<PrepareLine Anemoni TrueNeutral>>
 Anemoni: ... I'll... I'll think about it.
+<<wait 1>>
+<<NextNode BubbleManager>>
 ===
