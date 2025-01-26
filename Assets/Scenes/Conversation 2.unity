@@ -859,16 +859,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emotionSprites:
-  - {fileID: 21300000, guid: 71a05e24aa6c4fa4e84d3f37b5b499db, type: 3}
-  - {fileID: 21300000, guid: 62c230dfe8d32ab4cbdd053890dfda3b, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
+  - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
   textBox: {fileID: 3892861746976352615}
 --- !u!4 &648226779
 Transform:
@@ -2531,7 +2531,7 @@ SpriteRenderer:
   m_SortingLayerID: 168468487
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 90962cd4543aa4785a76687e2f66c116, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
   m_Color: {r: 1, g: 0.88235295, b: 0.9649972, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2555,16 +2555,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emotionSprites:
-  - {fileID: 21300000, guid: 71a05e24aa6c4fa4e84d3f37b5b499db, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 62c230dfe8d32ab4cbdd053890dfda3b, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 625e52e9cb5b149c78e2558ec216e0be, type: 3}
+  - {fileID: 21300000, guid: b7a003e94dfc84ebbb3286ae0f6e05f0, type: 3}
+  - {fileID: 21300000, guid: 90962cd4543aa4785a76687e2f66c116, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
+  - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
   textBox: {fileID: 3892861746976352614}
 --- !u!4 &1814146137
 Transform:
