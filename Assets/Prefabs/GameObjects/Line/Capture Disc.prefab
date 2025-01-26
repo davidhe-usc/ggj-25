@@ -158,10 +158,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 1181259844233373803}
     m_Modifications:
     - target: {fileID: 1440226340173680628, guid: 2632af07b8310324fb2282aa32589d47, type: 3}
-      propertyPath: SizeModule.separateAxes
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1440226340173680628, guid: 2632af07b8310324fb2282aa32589d47, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 1
       objectReference: {fileID: 0}
