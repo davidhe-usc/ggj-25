@@ -1,10 +1,12 @@
 ﻿title: Conversation2-1-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: What about your friends here?
+<<Mouth Nettle 0>>
 <<PrepareLine Anemoni Sheepish>>
 Anemoni: I got gifts for you guys too from Waveside!
 <<wait 1>>

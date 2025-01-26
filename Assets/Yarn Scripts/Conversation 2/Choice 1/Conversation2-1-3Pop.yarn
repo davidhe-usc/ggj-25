@@ -1,11 +1,13 @@
 ﻿title: Conversation2-1-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: Yeah, but you're going to visit often, right?
 <<PrepareLine Anemoni Worried>>
+<<Mouth Nettle 0>>
 Anemoni: I don't know... I think it really depends on my schedule.
 <<wait 1>>
 <<NextNode BubbleManager>>

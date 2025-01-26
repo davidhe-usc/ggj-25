@@ -1,12 +1,14 @@
 ﻿title: Conversation4-1-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Open>>
 Nettle: We can definitely spend more time together, next time you're in town!
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: For sure!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -15,11 +17,13 @@ Anemoni: For sure!
 title: Conversation4-1-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: I've definitely missed spending the time together. We used to hang out all the time.
 <<PrepareLine Anemoni Sad>>
+<<Mouth Nettle 0>>
 Anemoni: I know...
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -28,12 +32,14 @@ Anemoni: I know...
 title: Conversation4-1-2Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Open>>
 Nettle: We can speak whenever though, on the phone, right?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah, you're right! We should do that more!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -42,12 +48,14 @@ Anemoni: Yeah, you're right! We should do that more!
 title: Conversation4-1-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: You should definitely come back to hang out more, I've missed you.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Sad>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah... I'll definitely think about it. I want to.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -56,11 +64,13 @@ Anemoni: Yeah... I'll definitely think about it. I want to.
 title: Conversation4-1-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: Maybe. I don't know. Sometimes it feels like we might become strangers.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Don't say that...
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -69,11 +79,13 @@ Anemoni: Don't say that...
 title: Conversation4-1-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Open>>
 Nettle: Not really, you're still the same friend I made, what? Fifteen years ago?
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: Eighteen, I think, actually. Gosh. We've known each other for so long.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -82,11 +94,13 @@ Anemoni: Eighteen, I think, actually. Gosh. We've known each other for so long.
 title: Conversation4-2-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: I'd like to think that I've aged out of sneaking out, haha.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Haha, same. But wasn't there something thrilling about it back then?
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -95,11 +109,13 @@ Anemoni: Haha, same. But wasn't there something thrilling about it back then?
 title: Conversation4-2-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: We should go see another show together sometime!
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Should we sneak out this time as well?
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -108,11 +124,13 @@ Anemoni: Should we sneak out this time as well?
 title: Conversation4-2-2Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: I'd rather not remember Ms. Marling. That was so embarassing.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Oh, come on, I had to deal with it for <i>years</i>!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -121,11 +139,13 @@ Anemoni: Oh, come on, I had to deal with it for <i>years</i>!
 title: Conversation4-2-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: You know, I only said I had that crush so you'd get off my case about liking someone.
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: Get off your case? What does that even <i>mean?</i>
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -134,11 +154,13 @@ Anemoni: Get off your case? What does that even <i>mean?</i>
 title: Conversation4-2-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: These are things all friends do, right?
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: I don't know about you but I think I'd only do that with a close friend, haha.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -147,11 +169,13 @@ Anemoni: I don't know about you but I think I'd only do that with a close friend
 title: Conversation4-2-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: I still wear mine. What about you?
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: I still have mine! But it's somewhere in my room in Waveside. I don't wear it much because I'm scared of losing it.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -160,12 +184,14 @@ Anemoni: I still have mine! But it's somewhere in my room in Waveside. I don't w
 title: Conversation4-3-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: I'm sure there's loads of new things in your life now, though, right?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah! They're super neat too, I'll share with you sometime!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -174,12 +200,14 @@ Anemoni: Yeah! They're super neat too, I'll share with you sometime!
 title: Conversation4-3-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: Do you not listen to this music anymore? Even for nostalgia's sake?
 <<PrepareLine Nettle Neutral>>
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: I do but it's so rare these days, you know? I've just... forgotten with time, I guess?
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -188,12 +216,14 @@ Anemoni: I do but it's so rare these days, you know? I've just... forgotten with
 title: Conversation4-3-2Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: I'm just lazy, what can I say. Maybe I should do a deep clean someday.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: I can definitely try to come over to help, if you do.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -202,12 +232,14 @@ Anemoni: I can definitely try to come over to help, if you do.
 title: Conversation4-3-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: I just can't bring myself to throw away all these memories. Don't you still have stuff from growing up?
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah, but like, I left it with my parents. There's not much that I really want to remember.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -216,12 +248,14 @@ Anemoni: Yeah, but like, I left it with my parents. There's not much that I real
 title: Conversation4-3-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Open>>
 Nettle: Oh, yeah, but I haven't started it yet.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Open>>
+<<Mouth Nettle 0>>
 Anemoni: Let me know what you think when you give it a shot!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -230,11 +264,13 @@ Anemoni: Let me know what you think when you give it a shot!
 title: Conversation4-3-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Open>>
 Nettle: Yeah, when you said you enjoyed it, I wanted to see what it was about.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: None of my friends wanted to give it a try - you should let me know when you finish it so we can talk about it!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -243,11 +279,13 @@ Anemoni: None of my friends wanted to give it a try - you should let me know whe
 title: Conversation4-4-1Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Sad>>
 Nettle: Is it convenient enough that it's worth it? It's not like you can't get what you need here, you know?
 <<PrepareLine Anemoni Sad>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah... you're right. I guess I was just getting used to how things were over there.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -256,11 +294,13 @@ Anemoni: Yeah... you're right. I guess I was just getting used to how things wer
 title: Conversation4-4-1Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Sad>>
 Nettle: Yeah, you can definitely access things there a lot easier than you could here.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: For sure! If I run out of toilet paper or something in the middle of the night, there'll still always be somewhere open for me!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -269,11 +309,13 @@ Anemoni: For sure! If I run out of toilet paper or something in the middle of th
 title: Conversation4-4-2Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Sad>>
 Nettle: Isn't that what growing up is about? Getting more responsibility and adjusting as you go? I think you're doing great.
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: Aw, thanks. I'm just doing my best. I'm glad you think so.
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -282,11 +324,13 @@ Anemoni: Aw, thanks. I'm just doing my best. I'm glad you think so.
 title: Conversation4-4-2Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Sad>>
 Nettle: I mean, things haven't changed much here. I get up and I usually know what to expect of my day.
 <<PrepareLine Anemoni Sad>>
+<<Mouth Nettle 0>>
 Anemoni: That's so nice... I want that sometimes...
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -295,11 +339,13 @@ Anemoni: That's so nice... I want that sometimes...
 title: Conversation4-4-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Sad>>
 Nettle: But you've just started your life in Waveside! That's so exciting!
 <<PrepareLine Anemoni Neutral>>
+<<Mouth Nettle 0>>
 Anemoni: You're right! I should treat it like an adventure, not a chore!
 <<wait 1>>
 <<NextNode BubbleManager>>
@@ -308,12 +354,14 @@ Anemoni: You're right! I should treat it like an adventure, not a chore!
 title: Conversation4-4-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Sad>>
 Nettle: I mean, it's still not too late. There's nothing truly stopping you from coming back if you really wanted.
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Sad>>
+<<Mouth Nettle 0>>
 Anemoni: Yeah... you're right...
 <<wait 1>>
 <<NextNode BubbleManager>>

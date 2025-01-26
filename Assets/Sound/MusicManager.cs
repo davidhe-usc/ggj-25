@@ -30,7 +30,7 @@ public class MusicManager : MonoBehaviour
         {
             menuSnapshot.TransitionTo(2f);
         }
-        if (sceneName == "SampleScene")
+        if (sceneName == "Intro")
         {
             cafeSnapshot.TransitionTo(2f);
         }

@@ -1,10 +1,12 @@
 ﻿title: Conversation1-2-3Pop
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Do you think you can maintain friends with your busy schedule?
+<<Mouth Nettle 0>>
 <<PrepareLine Anemoni Worried>>
 Anemoni: You're right...
 <<wait 1>>

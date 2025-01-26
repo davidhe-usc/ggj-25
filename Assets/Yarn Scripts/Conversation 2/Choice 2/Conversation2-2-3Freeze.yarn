@@ -1,12 +1,14 @@
 ﻿title: Conversation2-2-3Freeze
 tags:
 ---
+<<Mouth Nettle 1>>
 <<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Yeah, Waveside definitely has more going for it then little old Coralburg. 
 <<Emote Nettle Neutral>>
 <<PrepareLine Anemoni Happy>>
+<<Mouth Nettle 0>>
 Anemoni: I'm glad I got the chance to go, for sure!
 <<wait 1>>
 <<NextNode BubbleManager>>
