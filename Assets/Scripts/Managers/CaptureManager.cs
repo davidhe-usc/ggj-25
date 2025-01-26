@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class CaptureManager : MonoBehaviour
 {
-    public Camera camera;
+    [SerializeField] private Camera camera;
 
-    public CaptureLine captureLine;
+    [SerializeField] private GameObject captureHead;
+    [SerializeField] private CaptureLine captureLine;
     private CaptureLine currentLine;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,13 +21,14 @@ public class CaptureManager : MonoBehaviour
     void Update()
     {
         Vector2 mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
+        captureHead.transform.position = mousePosition;
 
         if (Input.GetMouseButtonDown(0))
         {
             currentLine = Instantiate(captureLine, mousePosition, Quaternion.identity);
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && currentLine != null)
         {
             currentLine.SetPosition(mousePosition);
         }

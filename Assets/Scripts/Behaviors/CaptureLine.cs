@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,15 +24,21 @@ class LineSegment
 
 public class CaptureLine : MonoBehaviour
 {
-    public LineRenderer line;
-    [SerializeField] private float maxDist;
-    private LinkedList<LineSegment> pointQueue;
+    [SerializeField] private LineRenderer line;
+    [SerializeField] private EdgeCollider2D edgeCol;
+    [SerializeField] private PolygonCollider2D loopCol;
 
+    [SerializeField] private float maxDist;
+    [SerializeField] private float stepDist;
+
+    private LinkedList<LineSegment> pointQueue;
     // Start is called before the first frame update
     void Start()
     {
         line = GetComponent<LineRenderer>();
         pointQueue = new LinkedList<LineSegment>();
+        edgeCol.transform.position -= transform.position;
+        loopCol.points = new Vector2[0];
     }
 
     // Update is called once per frame
@@ -57,8 +64,13 @@ public class CaptureLine : MonoBehaviour
         else
         {
             LineSegment lastPoint = pointQueue.Last.Value;
-            LineSegment newPoint = new LineSegment(Vector2.Distance(lastPoint.endPoint, pos), pos);
-            pointQueue.AddLast(newPoint);
+            
+            //check distance
+            if (Vector2.Distance(pos, lastPoint.endPoint) > stepDist)
+            {
+                LineSegment newPoint = new LineSegment(Vector2.Distance(lastPoint.endPoint, pos), pos);
+                pointQueue.AddLast(newPoint);
+            }
         }
 
         //check total length of line
@@ -74,13 +86,22 @@ public class CaptureLine : MonoBehaviour
         }
 
         //Grab positions, Set New Line
-        Vector3[] positions = pointQueue.Select(item => (Vector3) item.endPoint).ToArray();
+        Vector2[] positions = pointQueue.Select(item => item.endPoint).ToArray();
+        Vector3[] positions3 = positions.Select(item => (Vector3) item).ToArray();
         line.positionCount = positions.Length;
-        line.SetPositions(positions);
+        line.SetPositions(positions3);
+        edgeCol.points = new Vector2[0];
+
+        if (positions.Length > 2)
+        {
+            edgeCol.points = positions[..(positions.Length - 2)];
+        }
+        
     }
 
     private bool CanAppend(Vector2 pos)
     {
+        if (line == null) return false;
         if (line.positionCount == 0)
         {
             return true;
@@ -89,5 +110,38 @@ public class CaptureLine : MonoBehaviour
         float lineDist = Vector2.Distance(line.GetPosition(line.positionCount - 1), pos);
 
         return (lineDist > 0.1f);
+    }
+
+    private void CloseLoop(Vector2 closePoint)
+    {
+
+        int closeIndex = Array.IndexOf(edgeCol.points, closePoint);
+        Vector2[] loop = edgeCol.points[closeIndex..];
+        loopCol.points = loop;
+        Debug.Log("Loop Detected");
+    }
+
+    private Vector2 ClosestVertex(Vector2 other)
+    {
+        float minDist = Mathf.Infinity;
+        Vector2 res = Vector2.zero;
+
+        foreach(Vector2 point in edgeCol.points)
+        {
+            float dist = Vector2.Distance(point, other);
+            if (dist < minDist)
+            {
+                minDist = dist;
+                res = point;
+            }
+        }
+
+        return res;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Vector2 closePoint = ClosestVertex(other.transform.position);
+        CloseLoop(closePoint);
     }
 }
