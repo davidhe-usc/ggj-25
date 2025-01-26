@@ -312,10 +312,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 426647479249506382, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 694748723511992295, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -426,10 +422,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816668479574555786, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1819394168843331527, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211138618692593582, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
@@ -720,10 +712,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6834087911079233672, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6928924650055706310, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -738,10 +726,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6928924650055706310, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7008058809237718372, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7346064081927191192, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
@@ -764,10 +748,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Progress Interstitial Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 7389628283167818103, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7397547638455726421, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -830,10 +810,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7692926698404761310, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7703022012813541116, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7858323455182392013, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}

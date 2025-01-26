@@ -8,17 +8,20 @@ class LineSegment
 {
     public float length;
     public Vector2 endPoint;
+    public bool decay;
 
     public LineSegment(Vector2 endPoint)
     {
         this.length = 0;
         this.endPoint = endPoint;
+        this.decay = false;
     }
 
     public LineSegment(float length, Vector2 endPoint)
     {
         this.length = length;
         this.endPoint = endPoint;
+        this.decay = false;
     }
 }
 
@@ -32,6 +35,7 @@ public class CaptureLine : MonoBehaviour
     [SerializeField] private float stepDist;
 
     private LinkedList<LineSegment> pointQueue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,9 +46,19 @@ public class CaptureLine : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        LinkedListNode<LineSegment> currentTail = pointQueue.First;
+
+        if (currentTail != null && currentTail.Value.decay)
+        {
+            pointQueue.RemoveFirst();
+        }
+
+        if (pointQueue.First != null)
+        {
+            pointQueue.First.Value.length = 0;
+        }
     }
 
     public void SetPosition(Vector2 pos)
@@ -117,10 +131,12 @@ public class CaptureLine : MonoBehaviour
         int length = pointQueue.Count;
         int mid = length / 2;
         int count = 0;
-        
+
+        LinkedListNode<LineSegment> currentNode = pointQueue.First;
         while(count < mid)
         {
-            pointQueue.RemoveFirst();
+            currentNode.Value.decay = true;
+            currentNode = currentNode.Next;
             count++;
         }
     }
