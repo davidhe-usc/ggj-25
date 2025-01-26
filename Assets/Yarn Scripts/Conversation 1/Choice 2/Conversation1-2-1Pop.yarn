@@ -1,6 +1,7 @@
 ﻿title: Conversation1-2-1Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: I mean, I know work has got to be work but isn't that to be expected?

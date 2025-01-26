@@ -1,6 +1,7 @@
 ﻿title: Conversation1-1-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: That's alright, you can always come back whenever you want! Coralburg isn't going anywhere.

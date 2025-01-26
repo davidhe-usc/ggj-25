@@ -1,6 +1,7 @@
 ﻿title: Conversation3-1-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: I'm sure they're busy - plus don't you usually use teleports everywhere in Waveside?
@@ -12,6 +13,7 @@ Anemoni: Yeah, you've got a point.
 title: Conversation3-1-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: What?? Not even offered? I'm sorry, but that's really inconsiderate! Do they at least check in?
@@ -22,6 +24,7 @@ Anemoni: Yeah... but, to be fair, they usually don't walk places.
 title: Conversation3-1-2Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Don't you usually use teleports everywhere in Waveside?
@@ -33,6 +36,7 @@ Anemoni: Yeah, you've got a point.
 title: Conversation3-1-2Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: That'd never be a problem in Coralburg.
@@ -43,6 +47,7 @@ Anemoni: Yeah... I miss it here, sometimes...
 title: Conversation3-1-3Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Aren't there parks in Waveside?
@@ -54,6 +59,7 @@ Anemoni: You're right, there are a few!
 title: Conversation3-1-3Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: I guess that's the price you pay with a growing city, right?
@@ -65,6 +71,7 @@ Anemoni: Yeah, nothing beats the small town atmosphere, especially if you grew u
 title: Conversation3-2-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Worried>>
 Nettle: Yeah, I appreciate it but I think I can manage so don't worry about me!
@@ -75,6 +82,7 @@ Anemoni: Alright... just know that you've got me in your corner.
 title: Conversation3-2-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Yeah, don't you miss it? We used to laugh so much and you loved making new drinks.
@@ -85,6 +93,7 @@ Anemoni: I do miss it...
 title: Conversation3-2-2Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Is technical sorcery really what you want to do?
@@ -95,6 +104,7 @@ Anemoni: I mean... yeah... but... I don't know, I really did like working at the
 title: Conversation3-2-2Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: But school is important to achieving your dreams!
@@ -106,6 +116,7 @@ Anemoni: Yeah!
 title: Conversation3-2-3Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Do you really need to work? Do you even like your job?
@@ -116,6 +127,7 @@ Anemoni: I mean... I don't <i>have</i> to do it...
 title: Conversation3-2-3Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Worried>>
 Nettle: Yeah, but you've got to pay those bills somehow, right?
@@ -127,6 +139,7 @@ Anemoni: Haha, yeah - what can I say, I love eating out!
 title: Conversation3-3-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: It can't be that bad at Waveside. Don't you go out with your friends?
@@ -138,6 +151,7 @@ Anemoni: Yeah, you're right - I am forgetting that, haha.
 title: Conversation3-3-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Is it really that bad in Waveside? It sounds like you don't even have a chance to breathe.
@@ -148,6 +162,7 @@ Anemoni: Sometimes I really do feel like I'm going stir crazy...
 title: Conversation3-3-2Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Do you really have to do anything that you can't handle?
@@ -159,6 +174,7 @@ Anemoni: No... It's just stressful sometimes, haha!
 title: Conversation3-3-2Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: It sounds like you have way too much on your plate...
@@ -169,6 +185,7 @@ Anemoni: Yeah... I mean, I'll manage, I always do, somehow.
 title: Conversation3-3-3Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Surely you have <i>something</i>. Aren't you always telling me about the books you're reading?
@@ -180,6 +197,7 @@ Anemoni: You're right - I'm just exaggerating a little, haha!
 title: Conversation3-3-3Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Do you not do anything for fun over there?

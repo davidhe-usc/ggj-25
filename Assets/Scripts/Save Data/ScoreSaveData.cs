@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class ScoreSaveData : MonoBehaviour
 {
@@ -27,10 +28,14 @@ public class ScoreSaveData : MonoBehaviour
     {
         PlayerPrefs.SetInt("Score", 0);
     }
+
+    [YarnCommand("ClearScore")]
     public void ClearScore()
     {
         SetScore(0);
     }
+
+    [YarnCommand("AddScore")]
     public void ModifyScore(int scoreModifier) //Call this and add a +1 or -1.
     {
         PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + scoreModifier);

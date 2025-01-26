@@ -1,6 +1,7 @@
 ﻿title: Conversation1-1-2Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Oh? Like what?

@@ -1,6 +1,7 @@
 ﻿title: Conversation5-1-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: You should move on with your life. 
@@ -12,6 +13,7 @@ Anemoni: Yeah...
 title: Conversation5-1-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: Yeah, I really missed you too. Things haven't really been the same without you here.
@@ -23,6 +25,7 @@ Anemoni: Yeah... things definitely don't feel right where I'm at either...
 title: Conversation5-1-2Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: I mean, that cafe has survived long before either of us were a part of it, I think things will be okay.
@@ -34,6 +37,7 @@ Anemoni: Yeah... you're right.
 title: Conversation5-1-2Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: We could always use your help - I'd always appreciate it.
@@ -45,6 +49,7 @@ Anemoni: Really?
 title: Conversation5-1-3Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: You should move on with your life. You chose Waveside.
@@ -56,6 +61,7 @@ Anemoni: Yeah...
 title: Conversation5-1-3Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: There'll always be a place for you if you want it.
@@ -66,6 +72,7 @@ Anemoni: Thanks, I appreciate that...
 title: Conversation5-2-1Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Yeah, I haven't been here in so long...
@@ -77,6 +84,7 @@ Anemoni: If I weren't here, I'd barely remember it, haha...
 title: Conversation5-2-1Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: I really like being here with you. It brings back a lot of old memories.
@@ -87,6 +95,7 @@ Anemoni: Yeah? Me too.
 title: Conversation5-2-2Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: But we aren't kids anymore, are we?
@@ -98,6 +107,7 @@ Anemoni: No... we're real big adults with real big responsibilities, aren't we?
 title: Conversation5-2-2Freeze
 tags:
 ---
+<<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: Sometimes I miss those days...
@@ -109,6 +119,7 @@ Anemoni: Yeah... me too.
 title: Conversation5-2-3Pop
 tags:
 ---
+<<AddScore SaveData 0>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni Neutral>>
 Nettle: So much time wasted here.
@@ -119,6 +130,7 @@ Anemoni: I don't really see it as a waste...
 title: Conversation5-2-3Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Neutral>>
 <<Emote Anemoni Neutral>>
 Nettle: We should come here whenever you're in town. I like being here with you.
@@ -129,6 +141,7 @@ Anemoni: ... yeah.
 title: Conversation5-3-1Pop
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: It could be that simple. You just come back. It's that easy.
@@ -140,6 +153,7 @@ Anemoni: ... I'll... I'll think about it.
 title: Conversation5-3-1Freeze
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle TrueNeutral>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: You're right... it wasn't realistic of me.
@@ -150,6 +164,7 @@ Anemoni: I get it, I really do, but I can't just up and leave everything, you kn
 title: Conversation5-3-2Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle TrueNeutral>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: No... you're right. You shouldn't.
@@ -160,6 +175,7 @@ Anemoni: It's not because of you, you know that, right?
 title: Conversation5-3-2Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: You could definitely stay! Don't you miss your life here? What it used to be?
@@ -170,6 +186,7 @@ Anemoni: You know, I always wanted to leave so bad I didn't realize how much I'd
 title: Conversation5-3-3Pop
 tags:
 ---
+<<AddScore SaveData 1>>
 <<PrepareLine Nettle TrueNeutral>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: I get it... I'm not enough, am I?
@@ -180,6 +197,7 @@ Anemoni: I <i>do</i> miss you but my life doesn't revolve around you.
 title: Conversation5-3-3Freeze
 tags:
 ---
+<<AddScore SaveData -1>>
 <<PrepareLine Nettle Open>>
 <<Emote Anemoni TrueNeutral>>
 Nettle: Then you should stay. You could just come back. I'm right here.
