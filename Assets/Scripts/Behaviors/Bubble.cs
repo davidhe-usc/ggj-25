@@ -109,14 +109,14 @@ public class Bubble : MonoBehaviour
 
     public void SelectBubble() //Select the bubble to move to the center of the screen
     {
-        manager.BubbleChosen(id, bubbleText.text);
+        manager.BubbleChosen(id, bubbleText.text, this);
         StartCoroutine(MoveToSelect());
     }
 
     IEnumerator MoveToSelect()
     {
         rb.isKinematic = true;
-        while(Vector3.Distance(transform.position, Vector3.zero) < 0.05f)
+        while(Vector3.Distance(transform.position, Vector3.zero) > 0.05f)
         {
             rb.MovePosition(Vector2.Lerp(transform.position, Vector3.zero, 0.01f));
             yield return null;
@@ -175,6 +175,7 @@ public class Bubble : MonoBehaviour
             if (checkMinBounds && checkMaxBounds)
             {
                 selectCounter++;
+                Debug.Log(selectCounter);
                 if (selectCounter >= threshold)
                     SelectBubble();
             }

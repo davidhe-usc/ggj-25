@@ -146,7 +146,6 @@ public class CaptureLine : MonoBehaviour
         int closeIndex = Array.IndexOf(edgeCol.points, closePoint);
         Vector2[] loop = edgeCol.points[closeIndex..];
         loopCol.points = loop;
-        Debug.Log("Loop Detected");
 
         ClearHalf();
     }

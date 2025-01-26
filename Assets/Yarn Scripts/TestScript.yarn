@@ -13,4 +13,5 @@ System: Spawn <holo>one</holo> bubble!
 System: Bubble number <holo>two</holo>!
 <<SpawnBubble BubbleManager Three S>>
 System: And one more makes <holo>three</holo>!
+<<CaptureReady BubbleManager>>
 ===

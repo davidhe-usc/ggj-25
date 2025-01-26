@@ -2,6 +2,7 @@ using Febucci.UI;
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using Yarn.Unity;
@@ -19,18 +20,22 @@ public class BubbleManager : MonoBehaviour
     public Transform[] spawnPoints; //Where the bubbles are allowed to spawn
 
     DialogueRunner dr;
+    CaptureManager cm;
 
     private Bubble activeBubble; //The bubble being selected for the freeze or pop choice
     private string activeLabel; //The selected bubble's label
     private bool popInputReady = false; //Whether the manager responds to pop/freeze button presses
 
     public CanvasGroup choiceMenu;
+    public TextMeshProUGUI bubbleChoiceText;
 
     // Start is called before the first frame update
     void Start()
     {
         dr = FindObjectOfType<DialogueRunner>();
+        cm = FindObjectOfType<CaptureManager>();
         bubbles = new List<Bubble>();
+        choiceMenu.alpha = 0f;
     }
 
     // Update is called once per frame
@@ -60,14 +65,29 @@ public class BubbleManager : MonoBehaviour
         b.Setup(this, textBoxCollider, bubbleLine, sigilLetter);
     }
 
-    public void BubbleChosen(string id, string l) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
+    [YarnCommand("CaptureReady")]
+    public void BubblesReady()
     {
+        cm.canCapture = true;
+    }
+
+    public void BubbleChosen(string id, string l, Bubble bubble) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
+    {
+        cm.canCapture = false;
+
+        activeBubble = bubble;
+
         foreach(Bubble b in bubbles)
         {
-            //call the fade animation
-            //check if the id matches and then do a different effect based on the popped bool
-            GameObject.Destroy(b.gameObject);
+            if (b.id != id)
+            {
+                //call the fade animation
+                //check if the id matches and then do a different effect based on the popped bool
+                GameObject.Destroy(b.gameObject, 1f);
+            }
         }
+
+        bubbleChoiceText.text = l;
 
         StartCoroutine(FadeChoices(true));
     }
@@ -99,9 +119,10 @@ public class BubbleManager : MonoBehaviour
         {
             popInputReady = false;
             StartCoroutine(FadeChoices(false));
-            bubbles.Clear();
 
             dr.StartDialogue(activeBubble.Pop(pop));
+
+            bubbles.Clear();
         }
     }
 
