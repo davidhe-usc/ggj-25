@@ -23,22 +23,29 @@ public class InterstitialProgressTracker : MonoBehaviour
     RectTransform playerStartTick;
     [SerializeField]
     RectTransform friendStartTick;
-    
     [SerializeField]
-    int tempTestScore;
-
+    ScoreSaveData scoreSaveData;
+    
     float stepSize;
     int scoreOffset = 0; //Can change this if we skew data based on endings achieved.
 
     // Start is called before the first frame update
     void Start()
     {
+        if (scoreSaveData == null)
+        {
+            scoreSaveData = FindObjectOfType<ScoreSaveData>();
+        }
         StartCoroutine(WaitThenReposition());
     }
 
     public void RepositionInterstitialPortraits()
     {
-        int scoreToUse = tempTestScore + scoreOffset;
+        if (scoreSaveData == null)
+        {
+            scoreSaveData = FindObjectOfType<ScoreSaveData>();
+        }
+        int scoreToUse = scoreSaveData.GetScore() + scoreOffset;
         if (scoreToUse < minScore)
         {
             scoreToUse = minScore;

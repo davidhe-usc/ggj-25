@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: f631522b4d7ffd94e958b67acfac492a
+  - enabled: 1
+    path: Assets/Scenes/Interstitials/Pre2Interstitial.unity
+    guid: cdc3fd44d6e707f498ae09f2334fffc7
+  - enabled: 1
+    path: Assets/Scenes/Interstitials/Pre3Interstitial.unity
+    guid: f5c3e3784ee9e6c4cad407cc214fd4c9
+  - enabled: 1
+    path: Assets/Scenes/Interstitials/Pre4Interstitial.unity
+    guid: 2d177705fd306904eab90e34c4fb1351
+  - enabled: 1
+    path: Assets/Scenes/Interstitials/Pre5Interstitial.unity
+    guid: 238982cf8ccca8f468ac84771d0c2a5e
   m_configObjects: {}
