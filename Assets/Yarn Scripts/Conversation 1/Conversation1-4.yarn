@@ -16,6 +16,6 @@ Anemoni: Yep! Harborfront, right?
 Nettle: Mhm! See you there!
 <<PrepareLine Anemoni Neutral>>
 Anemoni: See you tomorrow!
-<<Wait 1>>
+<<wait 1>>
 <<EndScene BubbleManager>>
 ===

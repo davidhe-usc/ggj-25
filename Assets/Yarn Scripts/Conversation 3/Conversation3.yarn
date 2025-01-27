@@ -69,6 +69,6 @@ Nettle: Yeah, maybe, haha.
 Nettle: Good night! See you tomorrow!
 <<PrepareLine Anemoni Neutral>>
 Anemoni: Good night!
-<<Wait 1>>
+<<wait 1>>
 <<EndScene BubbleManager>>
 ===

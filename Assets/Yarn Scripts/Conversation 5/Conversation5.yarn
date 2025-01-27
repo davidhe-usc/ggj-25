@@ -123,6 +123,6 @@ Nettle: Yeah?
 Anemoni: Can I have a hug?
 <<PrepareLine Nettle Neutral>>
 Nettle: Of course.
-<<Wait 1>>
+<<wait 1>>
 <<EndScene BubbleManager>>
 ===
