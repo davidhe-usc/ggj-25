@@ -124,6 +124,10 @@ public class Bubble : MonoBehaviour
         if (id.Equals("Intro"))
         {
             intro = true;
+            bubbleText.alpha = 0f;
+            Color c = bubbleTextBox.color;
+            c.a = 0;
+            bubbleTextBox.color = c;
         }
         else
         {
