@@ -1129,7 +1129,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
   textBox: {fileID: 3892861746976352615}
   mouth: {fileID: 1529630896}
-  baseArm: {fileID: 6636153}
+  baseArm: {fileID: 144755207}
 --- !u!4 &648226779
 Transform:
   m_ObjectHideFlags: 0
