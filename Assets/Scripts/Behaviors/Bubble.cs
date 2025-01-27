@@ -238,6 +238,7 @@ public class Bubble : MonoBehaviour
             if (checkMinBounds && checkMaxBounds)
             {
                 selectCounter++;
+                StartCoroutine(FadeOut());
                 if (selectCounter >= threshold)
                     SelectBubble();
             }
