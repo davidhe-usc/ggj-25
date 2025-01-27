@@ -67,7 +67,7 @@ public class BubbleManager : MonoBehaviour
 
         if (bubbleLine.Equals("Intro"))
         {
-            b = Instantiate(bubblePrefab, new Vector3(0,3f,0), Quaternion.identity).GetComponent<Bubble>();
+            b = Instantiate(bubblePrefab, new Vector3(0,0f,0), Quaternion.identity).GetComponent<Bubble>();
             cm.canCapture = true;
             Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
         }
