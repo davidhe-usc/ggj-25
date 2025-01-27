@@ -37,9 +37,12 @@ public class BubbleManager : MonoBehaviour
 
     public GameObject filter;
 
+    private List<string> usedIDs;
+
     // Start is called before the first frame update
     void Start()
     {
+        usedIDs = new List<string>();
         dr = FindObjectOfType<DialogueRunner>();
         cm = FindObjectOfType<CaptureManager>();
         bubbles = new List<Bubble>();
@@ -56,6 +59,8 @@ public class BubbleManager : MonoBehaviour
     [YarnCommand("SpawnBubble")]
     public void SpawnBubble(string bubbleLine, string sigilLetter) //Old version that spawns the bubble at the start of a yarn line
     {
+        if(usedIDs.Contains(bubbleLine)) return;
+
         StartCoroutine(BubbleDelay(bubbleLine, sigilLetter));
     }
 
@@ -81,6 +86,7 @@ public class BubbleManager : MonoBehaviour
 
             b = Instantiate(bubblePrefab, p.position, Quaternion.identity).GetComponent<Bubble>();
             bubbles.Add(b);
+            usedIDs.Add(bubbleLine);
         }
 
         b.Setup(this, textBoxCollider, bubbleLine, sigilLetter);
