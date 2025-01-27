@@ -101,7 +101,7 @@ public class Bubble : MonoBehaviour
 
     IEnumerator FadeIn() //Fades in the bubble's text box
     {
-        float alpha = bubbleTextBox.color.a;
+        /*float alpha = bubbleTextBox.color.a;
         while(alpha < 1f)
         {
             alpha += Time.deltaTime;
@@ -110,7 +110,8 @@ public class Bubble : MonoBehaviour
             c.a = alpha;
             bubbleTextBox.color = c;
             yield return null;
-        }
+        }*/
+        yield return null;
     }
 
     public void Setup(BubbleManager m, Collider2D t, string l, string s)
