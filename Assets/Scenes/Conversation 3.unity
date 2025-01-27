@@ -695,6 +695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BubbleManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4772255939493821471, guid: a6c0ec6269991cd42af0a217fef72de1, type: 3}
+      propertyPath: nextScene
+      value: Pre4Interstitial
+      objectReference: {fileID: 0}
     - target: {fileID: 6246723923699754373, guid: a6c0ec6269991cd42af0a217fef72de1, type: 3}
       propertyPath: m_Pivot.x
       value: 0
