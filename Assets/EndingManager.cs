@@ -12,11 +12,11 @@ public class EndingManager : MonoBehaviour
     {
         dr = FindObjectOfType<DialogueRunner>();
 
-        if (PlayerPrefs.GetInt("SelflessEndAchieved") == 1)
+        if (PlayerPrefs.GetInt("Score") >= 11)
         {
             dr.StartDialogue("Ending2-Selfless");
         }
-        else if (PlayerPrefs.GetInt("SelfishEndAchieved") == 1)
+        else if (PlayerPrefs.GetInt("Score") <= -2)
         {
             dr.StartDialogue("Ending1-Selfish");
         }
