@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 1101229205377858079}
   - component: {fileID: 7493279507065185451}
   - component: {fileID: 8647317534286002598}
+  - component: {fileID: 8239381689066532356}
   m_Layer: 0
   m_Name: BubbleText
   m_TagString: Untagged
@@ -702,6 +703,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &8239381689066532356
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4873681962192951550}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4881348880fad48b8876caabf9cc5ae5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5488838481829857411
 GameObject:
   m_ObjectHideFlags: 0
