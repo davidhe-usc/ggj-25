@@ -963,6 +963,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 03bdf1b0c074c48df9573963978d839c, type: 3}
   textBox: {fileID: 3892861746976352615}
   mouth: {fileID: 1643531703}
+  baseArm: {fileID: 0}
 --- !u!4 &648226779
 Transform:
   m_ObjectHideFlags: 0
@@ -2560,7 +2561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1643531704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2936,6 +2937,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7887c08838a1c4e699ca47cf722be02e, type: 3}
   textBox: {fileID: 3892861746976352614}
   mouth: {fileID: 1580282491}
+  baseArm: {fileID: 0}
 --- !u!4 &1814146137
 Transform:
   m_ObjectHideFlags: 0

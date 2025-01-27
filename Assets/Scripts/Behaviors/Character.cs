@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
     public Sprite[] emotionSprites; //List of sprites for the character for a given scene
     public LineView textBox; //The personal text box for this character
     public GameObject mouth;
+    public GameObject baseArm;
 
     private void Awake()
     {
@@ -101,10 +102,14 @@ public class Character : MonoBehaviour
         if(open == 1)
         {
             mouth.SetActive(true);
+            if(baseArm != null)
+                baseArm.SetActive(false);
         }
         else
         {
             mouth.SetActive(false);
+            if(baseArm != null)
+                baseArm.SetActive(true);
         }
     }
 }

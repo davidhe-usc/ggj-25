@@ -343,7 +343,7 @@ public class Bubble : MonoBehaviour
                 setNodes("3-1-2", "3-2");
                 break;
             case ("WalkSomewhereNice"):
-                bubbleText.text = "WalkSomewhereNice";
+                bubbleText.text = "Walk Somewhere Nice";
                 setNodes("3-1-3", "3-2");
                 break;
             // Choice 2
