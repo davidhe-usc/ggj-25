@@ -50,3 +50,6 @@ TagManager:
   - name: Border
     uniqueID: 1734741729
     locked: 0
+  - name: Bubble
+    uniqueID: 2086136913
+    locked: 0

@@ -943,16 +943,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emotionSprites:
-  - {fileID: 21300000, guid: 71a05e24aa6c4fa4e84d3f37b5b499db, type: 3}
-  - {fileID: 21300000, guid: 62c230dfe8d32ab4cbdd053890dfda3b, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
+  - {fileID: 21300000, guid: 09074feae4136450faf70bba207f60de, type: 3}
+  - {fileID: 21300000, guid: 09074feae4136450faf70bba207f60de, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
+  - {fileID: 21300000, guid: 68615431ce8324353ad5556fd590a109, type: 3}
   textBox: {fileID: 3892861746976352615}
   mouth: {fileID: 1529630896}
 --- !u!4 &648226779
@@ -2866,16 +2864,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emotionSprites:
-  - {fileID: 21300000, guid: 71a05e24aa6c4fa4e84d3f37b5b499db, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 62c230dfe8d32ab4cbdd053890dfda3b, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
-  - {fileID: 21300000, guid: 140d2d91f540fde4e97ac60e99ca9cf0, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
+  - {fileID: 21300000, guid: cabd6cecdb11b43ada094a5b66833c4c, type: 3}
   textBox: {fileID: 3892861746976352614}
   mouth: {fileID: 300541568}
 --- !u!4 &1814146137
