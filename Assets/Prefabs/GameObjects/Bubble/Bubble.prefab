@@ -5266,8 +5266,8 @@ MonoBehaviour:
   - K
   - W
   threshold: 5
-  popEffect: {fileID: 0}
-  bubbleSprite: {fileID: 0}
+  popEffect: {fileID: 1400324764638097714}
+  bubbleSprite: {fileID: 7389303814845751145}
 --- !u!50 &2610462914699610081
 Rigidbody2D:
   serializedVersion: 4
