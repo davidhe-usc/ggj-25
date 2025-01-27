@@ -9,12 +9,27 @@ public class CaptureManager : MonoBehaviour
     [SerializeField] private GameObject captureHead;
     [SerializeField] private CaptureLine captureLine;
     private CaptureLine currentLine;
-    public bool canCapture;
+    private ParticleSystem trails;
+    private bool _canCapture;
+    public bool canCapture
+    {
+        get { return _canCapture; }
+        set
+        {
+            _canCapture = value;
+            toggleParticles(value);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         canCapture = false;
+        trails = captureHead.GetComponentInChildren<ParticleSystem>();
+        if (trails != null)
+        {
+            trails.Stop();
+        }   
     }
 
     // Update is called once per frame
@@ -46,4 +61,18 @@ public class CaptureManager : MonoBehaviour
         }
 
     }
+    public void toggleParticles(bool input)
+    {
+        if (trails != null)
+        {
+            if (input) {
+                trails.Play();
+
+            }
+            else {
+                trails.Stop(); 
+            }
+        }
+    }
 }
+
