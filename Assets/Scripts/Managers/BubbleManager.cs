@@ -35,6 +35,8 @@ public class BubbleManager : MonoBehaviour
     public Texture2D defaultCursor;
     public Texture2D wandCursor;
 
+    public GameObject filter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -89,6 +91,7 @@ public class BubbleManager : MonoBehaviour
     {
         cm.canCapture = true;
         Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
+        filter.SetActive(true);
     }
 
     public void BubbleChosen(string id, string l, Bubble bubble) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
@@ -150,6 +153,8 @@ public class BubbleManager : MonoBehaviour
             afterNode = nodes.After;
 
             bubbles.Clear();
+
+            filter.SetActive(false);
         }
     }
 
