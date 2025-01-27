@@ -37,6 +37,9 @@ public class Bubble : MonoBehaviour
 
     private bool intro = false;
 
+    public ParticleSystem popEffect;
+    public GameObject bubbleSprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -176,14 +179,15 @@ public class Bubble : MonoBehaviour
     {
         if(pop)
         {
-            //start pop animation
-            GameObject.Destroy(this, 1f);
+            popEffect.Play();
+            bubbleSprite.SetActive(false);
+            GameObject.Destroy(this.gameObject, 1f);
             return (popNode, nodeAfter);
         }
         else
         {
-            //start freeze animation
-            GameObject.Destroy(this, 1f);
+            animator.SetBool("Freeze", true);
+            GameObject.Destroy(this.gameObject, 1f);
             return (freezeNode, nodeAfter);
         }
     }
@@ -223,6 +227,12 @@ public class Bubble : MonoBehaviour
         popNode = "Conversation" + id + "Pop";
         freezeNode = "Conversation" + id + "Freeze";
         nodeAfter = "Conversation" + next;
+    }
+
+    public void Unselected()
+    {
+        popEffect.Play();
+        bubbleSprite.SetActive(false);
     }
 
     private void SetText() //Set the bubble text and next node based on id

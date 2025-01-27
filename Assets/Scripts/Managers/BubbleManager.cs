@@ -105,6 +105,7 @@ public class BubbleManager : MonoBehaviour
             {
                 //call the fade animation
                 //check if the id matches and then do a different effect based on the popped bool
+                b.Unselected();
                 GameObject.Destroy(b.gameObject, 1f);
             }
         }
