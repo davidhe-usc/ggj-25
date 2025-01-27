@@ -601,7 +601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6030635466389050188, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: dayNumber
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6143157463283560082, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: m_AnchorMax.y
