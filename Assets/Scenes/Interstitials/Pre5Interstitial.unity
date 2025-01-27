@@ -597,7 +597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6030635466389050188, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: subtitle
-      value: ' '
+      value: Homecoming
       objectReference: {fileID: 0}
     - target: {fileID: 6030635466389050188, guid: 59300a8cea3435a41850a37d8fbb6dc7, type: 3}
       propertyPath: dayNumber
