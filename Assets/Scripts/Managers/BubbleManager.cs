@@ -89,8 +89,6 @@ public class BubbleManager : MonoBehaviour
     [YarnCommand("CaptureReady")]
     public void BubblesReady()
     {
-        cm.canCapture = true;
-        Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
         foreach (Bubble b in bubbles)
             b.AllReady();
         StartCoroutine(FilterFade());
@@ -107,6 +105,11 @@ public class BubbleManager : MonoBehaviour
             filterSR.color = alpha;
             yield return null;
         }
+
+        yield return new WaitForSeconds(0.7f);
+
+        cm.canCapture = true;
+        Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
     }
 
     IEnumerator FilterFadeOut()
