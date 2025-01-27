@@ -91,7 +91,22 @@ public class BubbleManager : MonoBehaviour
     {
         cm.canCapture = true;
         Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
-        filter.SetActive(true);
+        foreach (Bubble b in bubbles)
+            b.AllReady();
+        StartCoroutine(FilterFade());
+    }
+
+    IEnumerator FilterFade()
+    {
+        SpriteRenderer filterSR = filter.GetComponent<SpriteRenderer>();
+        Color alpha = filterSR.color;
+
+        while(alpha.a < 1f)
+        {
+            alpha.a += Time.deltaTime*3f;
+            filterSR.color = alpha;
+            yield return null;
+        }
     }
 
     public void BubbleChosen(string id, string l, Bubble bubble) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices

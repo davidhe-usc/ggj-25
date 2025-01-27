@@ -95,8 +95,13 @@ public class Bubble : MonoBehaviour
 
         if (!intro)
         {
-            StartCoroutine(FadeIn());
+            //StartCoroutine(FadeIn());
         }
+    }
+
+    public void AllReady()
+    {
+        StartCoroutine(FadeIn());
     }
 
     IEnumerator FadeIn() //Fades in the bubble's text box
@@ -105,6 +110,21 @@ public class Bubble : MonoBehaviour
         while(alpha < 1f)
         {
             alpha += Time.deltaTime;
+            bubbleText.alpha = alpha;
+            Color c = bubbleTextBox.color;
+            c.a = alpha;
+            bubbleTextBox.color = c;
+            yield return null;
+        }
+        yield return null;
+    }
+
+    IEnumerator FadeOut()
+    {
+        float alpha = bubbleTextBox.color.a;
+        while (alpha > 0f)
+        {
+            alpha -= Time.deltaTime*2f;
             bubbleText.alpha = alpha;
             Color c = bubbleTextBox.color;
             c.a = alpha;
@@ -186,12 +206,14 @@ public class Bubble : MonoBehaviour
         {
             popEffect.Play();
             bubbleSprite.SetActive(false);
+            StartCoroutine(FadeOut());
             GameObject.Destroy(this.gameObject, 1f);
             return (popNode, nodeAfter);
         }
         else
         {
             animator.SetBool("Freeze", true);
+            StartCoroutine(FadeOut());
             GameObject.Destroy(this.gameObject, 1f);
             return (freezeNode, nodeAfter);
         }
@@ -200,6 +222,7 @@ public class Bubble : MonoBehaviour
     public void FadeAnimation()
     {
         //do the animation to fade
+        StartCoroutine(FadeOut());
         Destroy(this.gameObject, 1f);
     }
 
@@ -236,6 +259,7 @@ public class Bubble : MonoBehaviour
 
     public void Unselected()
     {
+        StartCoroutine(FadeOut());
         popEffect.Play();
         bubbleSprite.SetActive(false);
     }
