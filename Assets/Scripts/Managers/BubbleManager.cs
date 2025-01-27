@@ -109,6 +109,19 @@ public class BubbleManager : MonoBehaviour
         }
     }
 
+    IEnumerator FilterFadeOut()
+    {
+        SpriteRenderer filterSR = filter.GetComponent<SpriteRenderer>();
+        Color alpha = filterSR.color;
+
+        while (alpha.a > 0f)
+        {
+            alpha.a -= Time.deltaTime * 3f;
+            filterSR.color = alpha;
+            yield return null;
+        }
+    }
+
     public void BubbleChosen(string id, string l, Bubble bubble) //Clean up the rest of the bubbles once one is chosen, set up the dialogue choices
     {
         cm.canCapture = false;
@@ -169,7 +182,8 @@ public class BubbleManager : MonoBehaviour
 
             bubbles.Clear();
 
-            filter.SetActive(false);
+            //filter.SetActive(false);
+            StartCoroutine(FilterFadeOut());
         }
     }
 
