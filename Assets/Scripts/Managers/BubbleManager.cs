@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class BubbleManager : MonoBehaviour
@@ -58,16 +59,28 @@ public class BubbleManager : MonoBehaviour
 
     IEnumerator BubbleDelay(string bubbleLine, string sigilLetter)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
-        Transform p;
-        do
+        Bubble b;
+
+        if (bubbleLine.Equals("Intro"))
         {
-            p = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        } while (!CheckBubblePositions(p.position));
+            b = Instantiate(bubblePrefab, new Vector3(0,3f,0), Quaternion.identity).GetComponent<Bubble>();
+            cm.canCapture = true;
+            Cursor.SetCursor(wandCursor, Vector2.zero, CursorMode.Auto);
+        }
+        else
+        {
+            Transform p;
+            do
+            {
+                p = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            } while (!CheckBubblePositions(p.position));
 
-        Bubble b = Instantiate(bubblePrefab, p.position, Quaternion.identity).GetComponent<Bubble>();
-        bubbles.Add(b);
+            b = Instantiate(bubblePrefab, p.position, Quaternion.identity).GetComponent<Bubble>();
+            bubbles.Add(b);
+        }
+
         b.Setup(this, textBoxCollider, bubbleLine, sigilLetter);
     }
 
@@ -196,5 +209,13 @@ public class BubbleManager : MonoBehaviour
         {
             StartCoroutine(QueueNode("Conversation5-6"));
         }
+    }
+
+    public void EndIntro()
+    {
+        Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
+        cm.canCapture = false;
+        IntroManager im = FindObjectOfType<IntroManager>();
+        im.EndIntro();
     }
 }
