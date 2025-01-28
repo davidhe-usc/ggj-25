@@ -207,14 +207,14 @@ public class Bubble : MonoBehaviour
             popEffect.Play();
             bubbleSprite.SetActive(false);
             StartCoroutine(FadeOut());
-            GameObject.Destroy(this.gameObject, 1f);
+            GameObject.Destroy(this.gameObject, 2f);
             return (popNode, nodeAfter);
         }
         else
         {
             animator.SetBool("Freeze", true);
             StartCoroutine(FadeOut());
-            GameObject.Destroy(this.gameObject, 1f);
+            GameObject.Destroy(this.gameObject, 3f);
             return (freezeNode, nodeAfter);
         }
     }
@@ -409,7 +409,7 @@ public class Bubble : MonoBehaviour
                 setNodes("4-3-2", "4-4");
                 break;
             case ("TheBook"):
-                bubbleText.text = "TheBook";
+                bubbleText.text = "The Book";
                 setNodes("4-3-3", "4-4");
                 break;
             // Choice 4
