@@ -241,11 +241,11 @@ public class BubbleManager : MonoBehaviour
     public void SetFive()
     {
         afterNode = "Conversation5-6";
-        if (PlayerPrefs.GetInt("SelflessEndAchieved") == 1)
+        if (PlayerPrefs.GetInt("Score") >= 11)
         {
             StartCoroutine(QueueNode("Conversation5-5Selfless"));
         }
-        else if (PlayerPrefs.GetInt("SelfishEndAchieved") == 1)
+        else if (PlayerPrefs.GetInt("Score") <= -2)
         {
             StartCoroutine(QueueNode("Conversation5-5Selfish"));
         }
